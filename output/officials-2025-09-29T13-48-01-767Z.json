@@ -1,0 +1,19 @@
+{
+  "school": "Florida State Seminoles",
+  "game": {
+    "date": "09/06/25",
+    "opponent": "East Texas A&M",
+    "location": "null",
+    "time": "TBA"
+  },
+  "officials": {
+    "backJudge": null,
+    "centerJudge": null,
+    "fieldJudge": null,
+    "lineJudge": null,
+    "linesman": null,
+    "referee": null,
+    "sideJudge": null,
+    "umpire": null
+  }
+}

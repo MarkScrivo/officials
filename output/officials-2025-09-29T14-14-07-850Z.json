@@ -1,0 +1,19 @@
+{
+  "school": "Florida State Seminoles",
+  "game": {
+    "date": "Sep 06",
+    "opponent": "East Texas A&M",
+    "location": null,
+    "time": null
+  },
+  "officials": {
+    "backJudge": "Scott Prewitt",
+    "centerJudge": "Larry Hayes",
+    "fieldJudge": "Conor Clougherty",
+    "lineJudge": "Jim Casey",
+    "linesman": "John Hoffman",
+    "referee": "Darryl DeBerry",
+    "sideJudge": "Jamal Shears",
+    "umpire": "Sean Geraghty"
+  }
+}

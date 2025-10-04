@@ -1,0 +1,40 @@
+# Git files
+.git
+.gitignore
+
+# Node modules (will be installed during build)
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Development files
+*.log
+logs/
+
+# Test files
+test-*.ts
+*.test.ts
+
+# Output files
+output/
+csv-test-results-*.json
+
+# Documentation
+*.md
+!README.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cloud deployment files
+.gcloudignore
+cloudbuild.yaml
+deploy-gcr.sh

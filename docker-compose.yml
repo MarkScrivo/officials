@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:3000"
+    env_file:
+      - .env
+    volumes:
+      # Mount for output/data persistence (optional)
+      - ./output:/app/output
+    restart: unless-stopped

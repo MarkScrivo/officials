@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: officialstest-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    region: oregon
+    plan: starter
+    healthCheckPath: /health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: HEADLESS
+        value: true
+      - key: BROWSER_TIMEOUT
+        value: 90000
+      - key: LOG_LEVEL
+        value: info
+      - key: PORT
+        value: 8080

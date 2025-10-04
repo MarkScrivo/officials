@@ -1,0 +1,57 @@
+{
+  "schools": {
+    "seminoles.com": {
+      "name": "Florida State Seminoles",
+      "scheduleUrl": "https://seminoles.com/sports/football/schedule",
+      "waitForSelector": ".schedule-table, .s-table",
+      "sport": "football"
+    },
+    "gohuskies.com": {
+      "name": "Washington Huskies",
+      "scheduleUrl": "https://gohuskies.com/sports/football/schedule",
+      "waitForSelector": ".schedule-table, .sidearm-schedule",
+      "sport": "football"
+    },
+    "rolltide.com": {
+      "name": "Alabama Crimson Tide",
+      "scheduleUrl": "https://rolltide.com/sports/football/schedule",
+      "waitForSelector": ".schedule-table, .sidearm-schedule",
+      "sport": "football"
+    },
+    "ohiostatebuckeyes.com": {
+      "name": "Ohio State Buckeyes",
+      "scheduleUrl": "https://ohiostatebuckeyes.com/sports/football/schedule",
+      "waitForSelector": ".schedule-table, .sidearm-schedule",
+      "sport": "football"
+    },
+    "goduke.com": {
+      "name": "Duke Blue Devils",
+      "scheduleUrl": "https://goduke.com/sports/football/schedule",
+      "waitForSelector": ".schedule-table, .sidearm-schedule",
+      "sport": "football"
+    },
+    "clemsontigers.com": {
+      "name": "Clemson Tigers", 
+      "scheduleUrl": "https://clemsontigers.com/sports/football/schedule",
+      "waitForSelector": ".schedule-table, .sidearm-schedule",
+      "sport": "football"
+    },
+    "soonersports.com": {
+      "name": "University of Oklahoma",
+      "scheduleUrl": "https://soonersports.com/sports/football/schedule",
+      "waitForSelector": ".schedule-table, .sidearm-schedule, table",
+      "sport": "football"
+    },
+    "gobearcats.com": {
+      "name": "University of Cincinnati",
+      "scheduleUrl": "https://gobearcats.com/sports/football/schedule",
+      "waitForSelector": ".schedule-table, .sidearm-schedule",
+      "sport": "football"
+    }
+  },
+  "defaultConfig": {
+    "waitForSelector": ".schedule, table, .sidearm-schedule, .schedule-table",
+    "sport": "football",
+    "timeout": 60000
+  }
+}

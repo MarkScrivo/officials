@@ -1,0 +1,3964 @@
+{
+  "totalSchools": 131,
+  "successful": 123,
+  "failed": 8,
+  "successRate": 93.89312977099237,
+  "totalCost": 8.464498200000001,
+  "totalTokens": 84554970,
+  "totalTime": 5027844,
+  "results": [
+    {
+      "school": "Alabama Crimson Tide",
+      "domain": "rolltide.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Tim Barker",
+        "umpire": "Jason Yates",
+        "linesman": "Jake Weatherford",
+        "lineJudge": "Trey Robinson",
+        "backJudge": "Brett Toney",
+        "fieldJudge": "Clarence Cotten",
+        "sideJudge": "Jonathan Bullock",
+        "centerJudge": "Christopher Bordelon"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Tuscaloosa, Ala.",
+        "opponent": "ULM",
+        "time": "6:45 p.m. CT",
+        "boxscoreUrl": "https://rolltide.com/game-center/19774"
+      },
+      "metadata": {
+        "processingTime": 19579,
+        "cost": 0.029143700000000005,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 291074,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:07:06.497Z"
+    },
+    {
+      "school": "Floridagators",
+      "domain": "floridagators.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Wayne Gautney",
+        "centerJudge": "Marc Curles",
+        "fieldJudge": "Allan Nicholson",
+        "lineJudge": "Chris Conway",
+        "linesman": "Ralph Green",
+        "referee": "Steve Marlowe",
+        "sideJudge": "Justin Larrew",
+        "umpire": "Rodney Lawary"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Gainesville, Fla.",
+        "opponent": "South Florida",
+        "time": "4:15 PM",
+        "boxscoreUrl": "https://floridagators.com/sports/football/stats/2025/south-florida/boxscore/27195"
+      },
+      "metadata": {
+        "processingTime": 27750,
+        "cost": 0.07749450000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 774030,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:07:37.322Z"
+    },
+    {
+      "school": "Ukathletics",
+      "domain": "ukathletics.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "David Smith",
+        "umpire": "Paul Myers",
+        "linesman": "Carl Gioia",
+        "lineJudge": "Michael Taylor",
+        "backJudge": "Paul Schardein",
+        "fieldJudge": "Raymond Tate",
+        "sideJudge": "Bryan Murphy",
+        "centerJudge": "Eddie Allbritton"
+      },
+      "gameInfo": {
+        "date": "Sat. Sep 6",
+        "location": "Lexington, Ky.",
+        "opponent": "Ole Miss",
+        "time": "TBA",
+        "boxscoreUrl": "https://ukathletics.com/news/2025/09/06/kentucky-comes-up-short-against-no-20-14-ole-miss/"
+      },
+      "metadata": {
+        "processingTime": 11015,
+        "cost": 0.011901900000000002,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 118527,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:07:51.372Z"
+    },
+    {
+      "school": "Lsusports",
+      "domain": "lsusports.net",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Jason Autrey",
+        "umpire": "Matthew Overmyer",
+        "linesman": "Brian Davis",
+        "lineJudge": "Colin Gaynor",
+        "backJudge": "Peter Buchanan",
+        "fieldJudge": "Jeffrey Cargile",
+        "sideJudge": "Ryan Flynn",
+        "centerJudge": "Chris Snead"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Baton Rouge, La. (Tiger Stadium)",
+        "opponent": "Louisiana Tech",
+        "time": "TBA",
+        "boxscoreUrl": "https://lsusports.net/boxscore/louisiana-tech-102/"
+      },
+      "metadata": {
+        "processingTime": 11340,
+        "cost": 0.011709400000000002,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 116740,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:08:05.748Z"
+    },
+    {
+      "school": "Olemisssports",
+      "domain": "olemisssports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "10/11/25",
+        "location": "Oxford, Miss.",
+        "opponent": "Washington State",
+        "time": "11:45 AM",
+        "boxscoreUrl": "https://olemisssports.com/sports/football/stats/2025/washington-state/boxscore/14308"
+      },
+      "metadata": {
+        "processingTime": 66355,
+        "cost": 0.06883149999999999,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 687739,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T01:09:15.158Z"
+    },
+    {
+      "school": "Hailstate",
+      "domain": "hailstate.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Henry Johns",
+        "umpire": "Roscue Meisenheimer",
+        "linesman": "Robert Richeson",
+        "lineJudge": "Lawrence Doss",
+        "backJudge": "Brian Ernest",
+        "fieldJudge": "Matt Mills",
+        "sideJudge": "Chris Junjulas",
+        "centerJudge": "Dan Scanlan"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Starkville",
+        "opponent": "#12 Arizona State",
+        "time": "6:30 p.m.",
+        "boxscoreUrl": "https://hailstate.com/sports/football/stats/2025/arizona-state/boxscore/8285"
+      },
+      "metadata": {
+        "processingTime": 13175,
+        "cost": 0.0312715,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 312310,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:09:53.718Z"
+    },
+    {
+      "school": "Mutigers",
+      "domain": "mutigers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Mike McCabe",
+        "umpire": "Brandon Wood",
+        "linesman": "Matt Burks",
+        "lineJudge": "Kelly Deterding",
+        "backJudge": "Daniel Young",
+        "fieldJudge": "Dion Spenard",
+        "sideJudge": "Rick Ockey",
+        "centerJudge": "Corey Long"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Columbia, Mo.",
+        "opponent": "Kansas",
+        "time": "2:30 p.m.",
+        "boxscoreUrl": "https://mutigers.com/sports/football/stats/2025/kansas/boxscore/32208"
+      },
+      "metadata": {
+        "processingTime": 16764,
+        "cost": 0.031305000000000006,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 312735,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:10:13.520Z"
+    },
+    {
+      "school": "Gamecocksonline",
+      "domain": "gamecocksonline.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Lee Hedrick",
+        "umpire": "John Short",
+        "linesman": "Christopher Hess",
+        "lineJudge": "Jonathan May",
+        "backJudge": "Corey Luxner",
+        "fieldJudge": "Scott Melancon",
+        "sideJudge": "Gordon Everett Jr.",
+        "centerJudge": "Josh Pozsik"
+      },
+      "gameInfo": {
+        "date": "Sat Sep 6",
+        "location": "Columbia, S.C.",
+        "opponent": "South Carolina State",
+        "time": "7:00 pm",
+        "boxscoreUrl": "https://gamecocksonline.com/boxscore/football-vs-south-carolina-state-9-6-25/"
+      },
+      "metadata": {
+        "processingTime": 11168,
+        "cost": 0.0100451,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 100025,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:10:27.726Z"
+    },
+    {
+      "school": "Utsports",
+      "domain": "utsports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Keith Parham",
+        "centerJudge": "Greg LeFils Jr.",
+        "fieldJudge": "Barry Blackwell",
+        "lineJudge": "Chuck Rice",
+        "linesman": "Stephen Ray",
+        "referee": "Ken Williamson",
+        "sideJudge": "Jordan Guest",
+        "umpire": "Walt Hill"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Knoxville, Tenn.",
+        "opponent": "ETSU",
+        "time": "3:30 p.m.",
+        "boxscoreUrl": "https://utsports.com/sports/football/stats/2025/etsu/boxscore/29416"
+      },
+      "metadata": {
+        "processingTime": 25514,
+        "cost": 0.061033800000000006,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 609456,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:10:56.286Z"
+    },
+    {
+      "school": "12thman",
+      "domain": "12thman.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Tom Fimmen",
+        "centerJudge": "Joel Moenkhoff",
+        "fieldJudge": "John Wisnewski",
+        "lineJudge": "Adam Loudin",
+        "linesman": "Chad Green",
+        "referee": "Jeff Heaser",
+        "sideJudge": "Glen Fucik",
+        "umpire": "Michael Moten"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Bryan-College Station",
+        "opponent": "Utah State",
+        "time": "11:45 AM",
+        "boxscoreUrl": "https://12thman.com/sports/football/stats/2025/utah-state/boxscore/22464"
+      },
+      "metadata": {
+        "processingTime": 25250,
+        "cost": 0.0648121,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 647236,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:11:24.568Z"
+    },
+    {
+      "school": "Texaslonghorns",
+      "domain": "texaslonghorns.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Paul Schardein",
+        "centerJudge": "Eddie Allbritton",
+        "fieldJudge": "Raymond Tate",
+        "lineJudge": "Michael Taylor",
+        "linesman": "Carl Gioia",
+        "referee": "David Smith",
+        "sideJudge": "Bryan Murphy",
+        "umpire": "Paul Myers"
+      },
+      "gameInfo": {
+        "date": "Aug 30",
+        "location": "Columbus, Ohio",
+        "opponent": "No. 3/2 Ohio State",
+        "time": "11 a.m. CT/12 p.m. ET",
+        "boxscoreUrl": "https://texaslonghorns.com/sports/football/stats/2025/no-3-2-ohio-state/boxscore/16762"
+      },
+      "metadata": {
+        "processingTime": 44326,
+        "cost": 0.0618537,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 617610,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:12:11.937Z"
+    },
+    {
+      "school": "Vucommodores",
+      "domain": "vucommodores.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Kyle Olson",
+        "umpire": "Brent Sowell",
+        "linesman": "Randall Kizer",
+        "lineJudge": "Marc Bovos",
+        "backJudge": "Chris Bikowski",
+        "fieldJudge": "Albert Bryant",
+        "sideJudge": "Eduardo Balbis",
+        "centerJudge": "Chris Garner"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Blacksburg, Va.",
+        "opponent": "Virginia Tech",
+        "time": "6:30 pm",
+        "boxscoreUrl": "https://vucommodores.com/boxscore/335004/"
+      },
+      "metadata": {
+        "processingTime": 10616,
+        "cost": 0.0083772,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 83373,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:12:25.577Z"
+    },
+    {
+      "school": "arkansasrazorbacks.com",
+      "domain": "arkansasrazorbacks.com",
+      "gameDate": "09/06/25",
+      "success": false,
+      "error": "No game found on 09/06/25 for arkansasrazorbacks.com",
+      "metadata": {
+        "processingTime": 23243,
+        "cost": 0.0050387,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 50285,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:12:51.869Z"
+    },
+    {
+      "school": "Auburntigers",
+      "domain": "auburntigers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Matt Loeffler",
+        "umpire": "Stan Wiehe",
+        "linesman": "Nicholas Theriot",
+        "lineJudge": "Jake Osgood",
+        "backJudge": "John Morton",
+        "fieldJudge": "Antonio Smith",
+        "sideJudge": "Jesse Dupuy",
+        "centerJudge": "Ron Turner"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Auburn, AL / Jordan-Hare Stadium",
+        "opponent": "Ball State",
+        "time": "18:30:00",
+        "boxscoreUrl": "https://auburntigers.com/boxscore/29471"
+      },
+      "metadata": {
+        "processingTime": 16958,
+        "cost": 0.0540733,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 540292,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:13:11.857Z"
+    },
+    {
+      "school": "Georgiadogs",
+      "domain": "georgiadogs.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "David Ross",
+        "centerJudge": "Brian Davis",
+        "fieldJudge": "Andy Britton",
+        "lineJudge": "Chris Snuggs",
+        "referee": "Jason McArthur",
+        "sideJudge": "Brandon Spencer",
+        "umpire": "Rod Tucker"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Clarksville, TN",
+        "opponent": "Austin Peay",
+        "time": "2:30 p.m.",
+        "boxscoreUrl": "https://georgiadogs.com/game-center/25557"
+      },
+      "metadata": {
+        "processingTime": 44418,
+        "cost": 0.08953539999999999,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 894442,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T01:13:59.315Z"
+    },
+    {
+      "school": "University of Oklahoma",
+      "domain": "soonersports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Justin Staehr",
+        "centerJudge": "Tim Riepenhoff",
+        "fieldJudge": "Lamont Simpson",
+        "lineJudge": "Jim Wharrie",
+        "linesman": "Matt Griebel",
+        "referee": "Mark Kluczynski",
+        "sideJudge": "Gaylon Williams",
+        "umpire": "Brad Hudak"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Norman",
+        "opponent": "Michigan",
+        "time": "6:30 p.m.",
+        "boxscoreUrl": "https://soonersports.com/boxscore.aspx?id=10717"
+      },
+      "metadata": {
+        "processingTime": 27435,
+        "cost": 0.06485840000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 647774,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:14:48.886Z"
+    },
+    {
+      "school": "Fightingillini",
+      "domain": "fightingillini.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jeff Latkiewicz",
+        "centerJudge": "Gregory Nelson",
+        "fieldJudge": "Kyle DeBuse",
+        "lineJudge": "Jeff Szink",
+        "linesman": "Ric Hinkamper",
+        "referee": "Ron Snodgrass",
+        "sideJudge": "Todd Ransom",
+        "umpire": null
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Durham, N.C.",
+        "opponent": "Duke",
+        "time": "11 AM CT",
+        "boxscoreUrl": "https://fightingillini.com/sports/football/stats/2025/duke/boxscore/26457"
+      },
+      "metadata": {
+        "processingTime": 24755,
+        "cost": 0.0799777,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 798982,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:15:16.691Z"
+    },
+    {
+      "school": "Iuhoosiers",
+      "domain": "iuhoosiers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jamar Simpson",
+        "centerJudge": "JP Williams",
+        "fieldJudge": "Carmen Williams",
+        "lineJudge": "Adam Parsons",
+        "linesman": "Julie Howell",
+        "referee": "Chris La Mange",
+        "sideJudge": "Damany Williams",
+        "umpire": "Matthew Unertl"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Bloomington, Ind.",
+        "opponent": "Kennesaw State",
+        "time": "Noon",
+        "boxscoreUrl": "https://iuhoosiers.com/sports/football/stats/2025/kennesaw-state/boxscore/27739"
+      },
+      "metadata": {
+        "processingTime": 46886,
+        "cost": 0.061723799999999995,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 616353,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:16:06.616Z"
+    },
+    {
+      "school": "Hawkeyesports",
+      "domain": "hawkeyesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Kole Knueppel",
+        "umpire": "Edward Feaster",
+        "linesman": "Rod Ammari",
+        "lineJudge": "Sergio DeHoyos",
+        "backJudge": "David Lofton",
+        "fieldJudge": "Ryan Gannon",
+        "sideJudge": "Steven Thielen",
+        "centerJudge": "David Siegle"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Ames, Iowa",
+        "opponent": "Iowa State",
+        "time": "11:00 AM CST",
+        "boxscoreUrl": "https://hawkeyesports.com/boxscore/2663"
+      },
+      "metadata": {
+        "processingTime": 16887,
+        "cost": 0.061597500000000006,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 615528,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:16:26.538Z"
+    },
+    {
+      "school": "umterps.com",
+      "domain": "umterps.com",
+      "gameDate": "09/06/25",
+      "success": false,
+      "error": "No game found on 09/06/25 for umterps.com",
+      "metadata": {
+        "processingTime": 13181,
+        "cost": 0,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 0,
+        "operations": 0
+      },
+      "timestamp": "2025-09-30T01:16:42.761Z"
+    },
+    {
+      "school": "Mgoblue",
+      "domain": "mgoblue.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Justin Staehr",
+        "centerJudge": "Tim Riepenhoff",
+        "fieldJudge": "Lamont Simpson",
+        "lineJudge": "Jim Wharrie",
+        "linesman": "Matt Griebel",
+        "referee": "Mark Kluczynski",
+        "sideJudge": "Gaylon Williams",
+        "umpire": "Brad Hudak"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Norman, Okla.",
+        "opponent": "#18 Oklahoma",
+        "time": "6:30 PM CT",
+        "boxscoreUrl": "https://mgoblue.com/sports/football/stats/2025/oklahoma/boxscore/29134"
+      },
+      "metadata": {
+        "processingTime": 45615,
+        "cost": 0.08584820000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 857669,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:17:31.422Z"
+    },
+    {
+      "school": "Msuspartans",
+      "domain": "msuspartans.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Federick Dimpfel",
+        "centerJudge": "William Bonet",
+        "fieldJudge": "Steve Currie",
+        "lineJudge": "Colin Formulak",
+        "linesman": "Dan Harrington",
+        "referee": "Jerry Magallanes",
+        "sideJudge": "Aaron Hochuli",
+        "umpire": "Jeremy Epps"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "East Lansing, Mich.",
+        "opponent": "Boston College",
+        "time": "7:30 PM",
+        "boxscoreUrl": "https://msuspartans.com/game-center/17220"
+      },
+      "metadata": {
+        "processingTime": 33611,
+        "cost": 0.118256,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1181729,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T01:18:08.068Z"
+    },
+    {
+      "school": "gophersports.com",
+      "domain": "gophersports.com",
+      "gameDate": "09/06/25",
+      "success": false,
+      "error": "No game found on 09/06/25 for gophersports.com",
+      "metadata": {
+        "processingTime": 20321,
+        "cost": 0,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 0,
+        "operations": 0
+      },
+      "timestamp": "2025-09-30T01:18:31.425Z"
+    },
+    {
+      "school": "Huskers",
+      "domain": "huskers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Lincoln, Neb. / Memorial Stadium",
+        "opponent": "Akron",
+        "time": "Final",
+        "boxscoreUrl": "https://huskers.com/boxscore/4243"
+      },
+      "metadata": {
+        "processingTime": 116661,
+        "cost": 0.1760779,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1760146,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T01:20:31.115Z"
+    },
+    {
+      "school": "nusports.com",
+      "domain": "nusports.com",
+      "gameDate": "09/06/25",
+      "success": false,
+      "error": "No game found on 09/06/25 for nusports.com",
+      "metadata": {
+        "processingTime": 12998,
+        "cost": 0.0317247,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 317145,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:20:47.169Z"
+    },
+    {
+      "school": "Ohio State Buckeyes",
+      "domain": "ohiostatebuckeyes.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Chris Curry",
+        "centerJudge": "Kendall Gant",
+        "fieldJudge": "Brad Brunet",
+        "lineJudge": "AJ Haduch",
+        "linesman": "Kevin Moss",
+        "referee": "Andrew Speciale",
+        "sideJudge": "Amanda Bender",
+        "umpire": "John Hanneke Jr."
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Columbus, Ohio",
+        "opponent": "Grambling State",
+        "time": "3:30 p.m.",
+        "boxscoreUrl": "https://ohiostatebuckeyes.com/game-center/20668"
+      },
+      "metadata": {
+        "processingTime": 112845,
+        "cost": 0.2835141,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 2834184,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T01:22:43.048Z"
+    },
+    {
+      "school": "Goducks",
+      "domain": "goducks.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Stephen Baron",
+        "umpire": "Marlow Fitzgerald",
+        "linesman": "Steven Matarante",
+        "lineJudge": "David Young",
+        "backJudge": "Donnie Aultman",
+        "fieldJudge": "Rich Almeroth",
+        "sideJudge": "James Murphy",
+        "centerJudge": "Abram Anaya"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Eugene, Ore.",
+        "opponent": "Oklahoma State",
+        "time": "12:30 PM",
+        "boxscoreUrl": "https://goducks.com/sports/football/stats/2025/oklahoma-state/boxscore/23669"
+      },
+      "metadata": {
+        "processingTime": 27884,
+        "cost": 0.033707100000000004,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 336660,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:23:13.964Z"
+    },
+    {
+      "school": "Gopsusports",
+      "domain": "gopsusports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Tim ODey",
+        "umpire": "Ken Zelmanski",
+        "linesman": "BJ Henry",
+        "lineJudge": "Jeff Meslow",
+        "backJudge": "Bob Stinson",
+        "fieldJudge": "Nicole Randolph",
+        "sideJudge": "Joel Clay",
+        "centerJudge": "Daniel Novak"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "University Park, Pa. / West Shore Home Field at Beaver Stadium",
+        "opponent": "FIU",
+        "time": "Final",
+        "boxscoreUrl": "https://gopsusports.com/boxscore/17550"
+      },
+      "metadata": {
+        "processingTime": 43826,
+        "cost": 0.06355759999999999,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 635147,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:24:00.814Z"
+    },
+    {
+      "school": "Purduesports",
+      "domain": "purduesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Francisco Villar",
+        "umpire": "Brett Denker",
+        "linesman": "Nicholas Brigati",
+        "lineJudge": "William McKoy",
+        "backJudge": "Kevin Schwarzel",
+        "fieldJudge": "Timothy Maguire",
+        "sideJudge": "Monte Tilgner",
+        "centerJudge": "Amanda Sauer"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "West Lafayette, Ind.",
+        "opponent": "Southern Illinois",
+        "time": "Final",
+        "boxscoreUrl": "https://purduesports.com/boxscore/1753"
+      },
+      "metadata": {
+        "processingTime": 16441,
+        "cost": 0.05652660000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 564936,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:24:20.296Z"
+    },
+    {
+      "school": "Scarletknights",
+      "domain": "scarletknights.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "William Foltz",
+        "centerJudge": "Anthony Romano",
+        "fieldJudge": "Kendal Smith",
+        "lineJudge": "Frank Spryszak",
+        "linesman": "Marc Shield",
+        "referee": "Billy Williams",
+        "sideJudge": "Kenneth Cloud",
+        "umpire": "Roger Day"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Piscataway, N.J.",
+        "opponent": "Miami (Ohio)",
+        "time": "3:30 PM",
+        "boxscoreUrl": "https://scarletknights.com/sports/football/stats/2025/miami-ohio-/boxscore/15513"
+      },
+      "metadata": {
+        "processingTime": 24401,
+        "cost": 0.08059820000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 805160,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:24:47.735Z"
+    },
+    {
+      "school": "Uclabruins",
+      "domain": "uclabruins.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jake Kemp",
+        "centerJudge": "Ron Kay",
+        "fieldJudge": "Justin Nelson",
+        "lineJudge": "Marcus Allen",
+        "linesman": "Michael Dolce",
+        "referee": "Bryan Banks",
+        "sideJudge": "John Hayes",
+        "umpire": "Tim Gover"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Las Vegas, NV",
+        "opponent": "UNLV",
+        "time": "5:00 PM (PT)",
+        "boxscoreUrl": "https://uclabruins.com/boxscore.aspx?id=34071"
+      },
+      "metadata": {
+        "processingTime": 51146,
+        "cost": 0.09707760000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 969963,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:25:41.927Z"
+    },
+    {
+      "school": "Usctrojans",
+      "domain": "usctrojans.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Robert Smith Jr.",
+        "centerJudge": "Brent Durbin",
+        "fieldJudge": "Phil Hicks",
+        "lineJudge": "John Wiercinski",
+        "linesman": "Bruce Keeling",
+        "referee": "Jason Nickleby",
+        "sideJudge": "Brett Henninger",
+        "umpire": "Mike Pilarski"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Los Angeles, Calif.",
+        "opponent": "Georgia Southern",
+        "time": "4:30 p.m.",
+        "boxscoreUrl": "https://usctrojans.com/sports/football/stats/2025/georgia-southern/boxscore/34545"
+      },
+      "metadata": {
+        "processingTime": 28485,
+        "cost": 0.07131000000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 712272,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:26:13.459Z"
+    },
+    {
+      "school": "Washington Huskies",
+      "domain": "gohuskies.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Matt Packowski",
+        "umpire": "Dan Montgomery",
+        "linesman": "Matthew Banks",
+        "lineJudge": "Rudy Studd",
+        "backJudge": "Damon Wilcox",
+        "fieldJudge": "Jim Wojcikiewicz",
+        "sideJudge": "Jared Flesch",
+        "centerJudge": "Aaron Adams"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Alaska Airlines Field at Husky Stadium",
+        "opponent": "UC Davis",
+        "time": "8:00 p.m. PT",
+        "boxscoreUrl": "https://gohuskies.com/sports/football/stats/2025/uc-davis/boxscore/24424"
+      },
+      "metadata": {
+        "processingTime": 19673,
+        "cost": 0.04218990000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 421350,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:26:36.173Z"
+    },
+    {
+      "school": "Uwbadgers",
+      "domain": "uwbadgers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Dennis Morris",
+        "centerJudge": "Jason Grant",
+        "fieldJudge": "Reginald Berry",
+        "lineJudge": "Vincent Winters",
+        "linesman": "Ryan MacDonald",
+        "referee": "Jeff Servinski",
+        "sideJudge": "Matt Kukar",
+        "umpire": "Ryan McClellan"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Camp Randall Stadium",
+        "opponent": "Middle Tennessee",
+        "time": "3 p.m. CT",
+        "boxscoreUrl": "https://uwbadgers.com/sports/football/stats/2025/middle-tennessee/boxscore/16261"
+      },
+      "metadata": {
+        "processingTime": 23472,
+        "cost": 0.07056770000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 704882,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:27:02.684Z"
+    },
+    {
+      "school": "Arizonawildcats",
+      "domain": "arizonawildcats.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Tutashinda Salaam",
+        "umpire": "Bill Lamkin",
+        "linesman": "Graig Reed",
+        "lineJudge": "Bret Bascue",
+        "backJudge": "Christopher Alston",
+        "fieldJudge": "Scott Gaines",
+        "sideJudge": "Jason Harris",
+        "centerJudge": "Ty Druse"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Arizona Stadium",
+        "opponent": "Weber State",
+        "time": "7:00 PM MST",
+        "boxscoreUrl": "https://arizonawildcats.com/sports/football/stats/2025/weber-state/boxscore/31028"
+      },
+      "metadata": {
+        "processingTime": 23529,
+        "cost": 0.0356753,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 356393,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:27:29.245Z"
+    },
+    {
+      "school": "Thesundevils",
+      "domain": "thesundevils.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Henry Johns",
+        "umpire": "Roscue Meisenheimer",
+        "linesman": "Robert Richeson",
+        "lineJudge": "Lawrence Doss",
+        "backJudge": "Brian Ernest",
+        "fieldJudge": "Matt Mills",
+        "sideJudge": "Chris Junjulas",
+        "centerJudge": "Dan Scanlan"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Starkville, MS / Davis Wade Stadium",
+        "opponent": "Mississippi State",
+        "time": "4:30 p.m. (MST)",
+        "boxscoreUrl": "https://thesundevils.com/boxscore/2031"
+      },
+      "metadata": {
+        "processingTime": 45388,
+        "cost": 0.0525459,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 525018,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:42:09.607Z"
+    },
+    {
+      "school": "Calbears",
+      "domain": "calbears.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jacques Hooper",
+        "centerJudge": "Josh Faith",
+        "fieldJudge": "Michael Hall",
+        "lineJudge": "Peter Baratta",
+        "linesman": null,
+        "referee": "Riley Johnson",
+        "sideJudge": "Jerry Walter",
+        "umpire": "Antwaune Ponds"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Berkeley, CA",
+        "opponent": "Texas Southern",
+        "time": "3:00 p.m. PT",
+        "boxscoreUrl": "https://calbears.com/sports/football/stats/2025/texas-southern/boxscore/37409"
+      },
+      "metadata": {
+        "processingTime": 27677,
+        "cost": 0.10180040000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1017170,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:42:40.317Z"
+    },
+    {
+      "school": "Cubuffs",
+      "domain": "cubuffs.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Kevin Boitmann",
+        "umpire": "Mark Warner",
+        "linesman": "Eric Carmouche",
+        "lineJudge": "Tracy Lynch",
+        "backJudge": "Joel Wetzel",
+        "fieldJudge": "Sean Mckinnie",
+        "sideJudge": "Mario Seneca",
+        "centerJudge": "John Dostal"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Folsom Field",
+        "opponent": "Georgia Tech",
+        "time": "1:30 PM",
+        "boxscoreUrl": "https://cubuffs.com/sports/football/stats/2025/delaware/boxscore/17466"
+      },
+      "metadata": {
+        "processingTime": 42080,
+        "cost": 0.0371071,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 370804,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:43:25.425Z"
+    },
+    {
+      "school": "Gostanford",
+      "domain": "gostanford.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Provo, UT",
+        "opponent": "BYU",
+        "time": "Final",
+        "boxscoreUrl": "https://gostanford.com/boxscore/25436"
+      },
+      "metadata": {
+        "processingTime": 116191,
+        "cost": 0.1742261,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1741766,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T01:45:24.635Z"
+    },
+    {
+      "school": "Utahutes",
+      "domain": "utahutes.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Matthew Hill",
+        "centerJudge": "Joshua Rusack",
+        "fieldJudge": "Edward Vinzant",
+        "lineJudge": "Jay Swanigan",
+        "linesman": "Catherine Conti",
+        "referee": "Lyndon Nixon",
+        "sideJudge": "Michael Sparling",
+        "umpire": "Anthony Gibson"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Salt Lake City, Utah",
+        "opponent": "Cal Poly",
+        "time": "4 p.m.",
+        "boxscoreUrl": "https://utahutes.com/sports/football/stats/2025/cal-poly/boxscore/23787"
+      },
+      "metadata": {
+        "processingTime": 59335,
+        "cost": 0.0604546,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 603658,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:46:27.006Z"
+    },
+    {
+      "school": "Cyclones",
+      "domain": "cyclones.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "David Lofton",
+        "centerJudge": "David Siegle",
+        "fieldJudge": "Ryan Gannon",
+        "lineJudge": "Sergio DeHoyos",
+        "linesman": "Rod Ammari",
+        "referee": "Kole Knueppel",
+        "sideJudge": "Steven Thielen",
+        "umpire": "Edward Feaster"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Ames, Iowa",
+        "opponent": "Iowa",
+        "time": "11:00 AM",
+        "boxscoreUrl": "https://cyclones.com/sports/football/stats/2025/iowa/boxscore/15209"
+      },
+      "metadata": {
+        "processingTime": 23771,
+        "cost": 0.07607330000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 759908,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:46:53.823Z"
+    },
+    {
+      "school": "Byucougars",
+      "domain": "byucougars.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Pat Ryan",
+        "centerJudge": null,
+        "fieldJudge": "Jake Dishaw",
+        "lineJudge": "Jim Slayton",
+        "linesman": "Anthony Maynor",
+        "referee": "Nate Black",
+        "sideJudge": "Milton Britton",
+        "umpire": "Tom Laverty"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Provo, Utah / LaVell Edwards Stadium",
+        "opponent": "Stanford",
+        "time": "8:15 PM MDT",
+        "boxscoreUrl": "https://byucougars.com/boxscore/23770"
+      },
+      "metadata": {
+        "processingTime": 68495,
+        "cost": 0.1317983,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1317182,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:48:05.353Z"
+    },
+    {
+      "school": "Texastech",
+      "domain": "texastech.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Tim Rich",
+        "umpire": "Josh Larson",
+        "linesman": "Doug Moore",
+        "lineJudge": "James Bryant III",
+        "backJudge": "Andrew Wimbs",
+        "fieldJudge": "DJ Hynes",
+        "sideJudge": "Brendon Barnes",
+        "centerJudge": "Marvel July"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Lubbock, Texas",
+        "opponent": "Kent State",
+        "time": "11 a.m. CT",
+        "boxscoreUrl": "https://texastech.com/game-center/21225"
+      },
+      "metadata": {
+        "processingTime": 27862,
+        "cost": 0.040183,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 401488,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:48:36.256Z"
+    },
+    {
+      "school": "Wvusports",
+      "domain": "wvusports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Robert Lewis",
+        "centerJudge": "Ian Malepeai",
+        "fieldJudge": "Joseph Martinez",
+        "lineJudge": "Dan Brush",
+        "linesman": "Sheldon Braun",
+        "referee": "Michael VanderVelde",
+        "sideJudge": "Mark Graves",
+        "umpire": "Sheldon Davis"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Athens, Ohio",
+        "opponent": "Ohio",
+        "time": "4:00 p.m.",
+        "boxscoreUrl": "https://wvusports.com/boxscore.aspx?id=18493"
+      },
+      "metadata": {
+        "processingTime": 25366,
+        "cost": 0.084312,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 842340,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:49:04.676Z"
+    },
+    {
+      "school": "Kstatesports",
+      "domain": "kstatesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Joe Johnston",
+        "centerJudge": "Brian Alos",
+        "fieldJudge": "Robert Asel",
+        "lineJudge": "Darren Deckard",
+        "linesman": "Rick Smith",
+        "referee": "David Alvarez",
+        "sideJudge": "Eric Hartman",
+        "umpire": "Stuart Schake"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Manhattan, Kan.",
+        "opponent": "Army",
+        "time": "6 p.m.",
+        "boxscoreUrl": "https://kstatesports.com/sports/football/stats/2025/army/boxscore/18885"
+      },
+      "metadata": {
+        "processingTime": 41704,
+        "cost": 0.0572469,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 571869,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:49:49.424Z"
+    },
+    {
+      "school": "Ucfknights",
+      "domain": "ucfknights.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Luke Richmond",
+        "umpire": "Michael Faltus",
+        "linesman": "Curt Wilson",
+        "lineJudge": "Keith Garmond",
+        "backJudge": "Nathan Jastram",
+        "fieldJudge": "Gabriel DeLeon",
+        "sideJudge": "Steven Heiman",
+        "centerJudge": "Chris Tallent"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Orlando, Fla. / Acrisure Bounce House",
+        "opponent": "North Carolina A&T",
+        "time": "Final",
+        "boxscoreUrl": "https://ucfknights.com/boxscore/11142"
+      },
+      "metadata": {
+        "processingTime": 15541,
+        "cost": 0.05456040000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 545142,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:50:07.987Z"
+    },
+    {
+      "school": "University of Cincinnati",
+      "domain": "gobearcats.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Cincinnati, Ohio / Nippert Stadium",
+        "opponent": "Bowling Green",
+        "time": "12:00 PM EDT",
+        "boxscoreUrl": "https://gobearcats.com/boxscore/3882"
+      },
+      "metadata": {
+        "processingTime": 74816,
+        "cost": 0.10492150000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1048624,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T01:51:25.844Z"
+    },
+    {
+      "school": "gofrogs.com",
+      "domain": "gofrogs.com",
+      "gameDate": "09/06/25",
+      "success": false,
+      "error": "No game found on 09/06/25 for gofrogs.com",
+      "metadata": {
+        "processingTime": 13718,
+        "cost": 0.039546000000000005,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 395442,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T01:51:42.615Z"
+    },
+    {
+      "school": "Uhcougars",
+      "domain": "uhcougars.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Robert Luklan",
+        "centerJudge": "Patrick Oldham",
+        "fieldJudge": "James Reif",
+        "lineJudge": "Joaquin Davis",
+        "linesman": "Jordan Whittington",
+        "referee": "Kevin Randall",
+        "sideJudge": "Matthew Waldron",
+        "umpire": "Joseph Pennucci"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Houston, Texas",
+        "opponent": "Rice",
+        "time": "6 p.m.",
+        "boxscoreUrl": "https://uhcougars.com/sports/football/stats/2025/rice/boxscore/15732"
+      },
+      "metadata": {
+        "processingTime": 79210,
+        "cost": 0.0618055,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 617212,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:53:04.875Z"
+    },
+    {
+      "school": "Kuathletics",
+      "domain": "kuathletics.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Daniel Young",
+        "centerJudge": "Corey Long",
+        "fieldJudge": "Dion Spenard",
+        "lineJudge": "Kelly Deterding",
+        "linesman": "Matt Burks",
+        "referee": "Mike McCabe",
+        "sideJudge": "Rick Ockey",
+        "umpire": "Brandon Wood"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Columbia, Mo.",
+        "opponent": "Missouri",
+        "time": "2:30 p.m. CT",
+        "boxscoreUrl": "https://kuathletics.com/sports/football/stats/2025/missouri/boxscore/9058"
+      },
+      "metadata": {
+        "processingTime": 45087,
+        "cost": 0.06697700000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 668762,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:53:53.001Z"
+    },
+    {
+      "school": "Osubeavers",
+      "domain": "osubeavers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Steven Steichen",
+        "centerJudge": "Michael Marsh",
+        "fieldJudge": "Victor Tarleton",
+        "lineJudge": "Ashante Jordan",
+        "linesman": "Henrietta Powell",
+        "referee": "John Love",
+        "sideJudge": "Hector Arias",
+        "umpire": "Michael Stephens"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Corvallis, Ore.",
+        "opponent": "Fresno State",
+        "time": "12:30 PM",
+        "boxscoreUrl": "https://osubeavers.com/sports/football/stats/2025/fresno-state/boxscore/22048"
+      },
+      "metadata": {
+        "processingTime": 61575,
+        "cost": 0.0752382,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 751479,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:54:57.635Z"
+    },
+    {
+      "school": "Wsucougars",
+      "domain": "wsucougars.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Chris Bailey",
+        "centerJudge": "Chris Booker",
+        "fieldJudge": "Eric McNally",
+        "lineJudge": "John Kilmer",
+        "linesman": "Joe Stahmer",
+        "referee": "Nolan Dumas",
+        "sideJudge": "Buddy Furqueron",
+        "umpire": "David Williams"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Pullman, Wash.",
+        "opponent": "San Diego State (Homecoming)",
+        "time": "7:15 p.m.",
+        "boxscoreUrl": "https://wsucougars.com/sports/football/stats/2025/san-diego-state-homecoming-/boxscore/21029"
+      },
+      "metadata": {
+        "processingTime": 39422,
+        "cost": 0.0619795,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 618895,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:55:40.105Z"
+    },
+    {
+      "school": "Goarmywestpoint",
+      "domain": "goarmywestpoint.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Joe Johnston",
+        "centerJudge": "Brian Alos",
+        "fieldJudge": "Robert Asel",
+        "lineJudge": "Darren Deckard",
+        "linesman": "Rick Smith",
+        "referee": "David Alvarez",
+        "sideJudge": "Eric Hartman",
+        "umpire": "Stuart Schake"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Manhattan, Kan.",
+        "opponent": "Kansas State",
+        "time": "7:00 PM",
+        "boxscoreUrl": "https://goarmywestpoint.com/sports/football/stats/2025/kansas-state/boxscore/17640"
+      },
+      "metadata": {
+        "processingTime": 24574,
+        "cost": 0.0658887,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 657972,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:56:07.731Z"
+    },
+    {
+      "school": "Navysports",
+      "domain": "navysports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Kennedy",
+        "centerJudge": "Treavor Jones",
+        "fieldJudge": "Glen Wilson",
+        "lineJudge": "Eli Stratton",
+        "referee": "Steven Anderson",
+        "umpire": "Tony Barrial",
+        "linesman": "Jeff Pruitt",
+        "sideJudge": "Dustin Drawhorn"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Annapolis, Md.",
+        "opponent": "UAB",
+        "time": "3:30 p.m.",
+        "boxscoreUrl": "https://navysports.com/sports/football/stats/2025/uab/boxscore/26483"
+      },
+      "metadata": {
+        "processingTime": 41738,
+        "cost": 0.1003286,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1002422,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:56:52.500Z"
+    },
+    {
+      "school": "Tulanegreenwave",
+      "domain": "tulanegreenwave.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Meenen",
+        "centerJudge": "Lonnie Brickman",
+        "fieldJudge": "Brandon Godfrey",
+        "lineJudge": "Richard Godfrey",
+        "linesman": "Marty Adams",
+        "referee": "Ted Pitts",
+        "sideJudge": "Major Sosebee",
+        "umpire": "Mark Walker"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Mobile, AL",
+        "opponent": "University of South Alabama",
+        "time": "6 p.m.",
+        "boxscoreUrl": "https://tulanegreenwave.com/sports/football/stats/2025/university-of-south-alabama/boxscore/22996"
+      },
+      "metadata": {
+        "processingTime": 22539,
+        "cost": 0.0620894,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 620081,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:57:18.077Z"
+    },
+    {
+      "school": "Gotigersgo",
+      "domain": "gotigersgo.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Ryan Pike",
+        "centerJudge": "Joe Clarkson",
+        "fieldJudge": "Ben Vasconcells",
+        "lineJudge": "Keegan Ashbee",
+        "linesman": "Braden Cox",
+        "referee": "Charles Lamertina",
+        "sideJudge": "Martine Jones",
+        "umpire": "Bill Lampkin"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Troy, Ala.",
+        "opponent": "Troy",
+        "time": "11 a.m.",
+        "boxscoreUrl": "https://gotigersgo.com/sports/football/stats/2025/georgia-state/boxscore/17957"
+      },
+      "metadata": {
+        "processingTime": 22420,
+        "cost": 0.06622140000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 661410,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T01:59:55.555Z"
+    },
+    {
+      "school": "Meangreensports",
+      "domain": "meangreensports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Devin Aller",
+        "centerJudge": "Harlan Bizzell",
+        "fieldJudge": "Stacy Jameson",
+        "lineJudge": "David Middleton",
+        "linesman": "Jeffery Johnson",
+        "referee": "Rick Warne",
+        "sideJudge": "Jen Berke",
+        "umpire": "Christopher Williams"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Kalamazoo, MI",
+        "opponent": "Western Michigan",
+        "time": "2:30 PM CT",
+        "boxscoreUrl": "https://meangreensports.com/sports/football/stats/2025/western-michigan/boxscore/6744"
+      },
+      "metadata": {
+        "processingTime": 23021,
+        "cost": 0.0533492,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 532688,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:00:21.638Z"
+    },
+    {
+      "school": "Ecupirates",
+      "domain": "ecupirates.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Tart",
+        "centerJudge": "Daniel Stanley",
+        "fieldJudge": "VanLawrence Franks",
+        "lineJudge": "Ryan Spadola",
+        "linesman": "Jeff Beeler",
+        "referee": "Zachary Erdmann",
+        "sideJudge": "DeWayne Keith",
+        "umpire": "Ryan Dunn"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Greenville, N.C.",
+        "opponent": "Campbell",
+        "time": "6:00 p.m.",
+        "boxscoreUrl": "https://ecupirates.com/sports/football/stats/2025/campbell/boxscore/13815"
+      },
+      "metadata": {
+        "processingTime": 22264,
+        "cost": 0.06145840000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 613768,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:00:46.936Z"
+    },
+    {
+      "school": "Charlotte49ers",
+      "domain": "charlotte49ers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Defee",
+        "centerJudge": "Jon Baden",
+        "fieldJudge": "Kip Johnson",
+        "lineJudge": "Peter Beratta",
+        "linesman": "Darryl Johnson",
+        "referee": "Adam Savoie",
+        "sideJudge": "Brian McGready",
+        "umpire": "Troy Ridley"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Charlotte, N.C.",
+        "opponent": "North Carolina",
+        "time": "7:00 p.m.",
+        "boxscoreUrl": "https://charlotte49ers.com/boxscore.aspx?id=19436"
+      },
+      "metadata": {
+        "processingTime": 49319,
+        "cost": 0.06905130000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 689661,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:40:33.559Z"
+    },
+    {
+      "school": "Gousfbulls",
+      "domain": "gousfbulls.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Wayne Gautney",
+        "centerJudge": "Marc Curles",
+        "fieldJudge": "Allan Nicholson",
+        "lineJudge": "Chris Conway",
+        "linesman": "Ralph Green",
+        "referee": "Steve Marlowe",
+        "sideJudge": "Justin Larrew",
+        "umpire": "Rodney Lawary"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Gainesville, Fla.",
+        "opponent": "Florida",
+        "time": "4:15 PM",
+        "boxscoreUrl": "https://gousfbulls.com/sports/football/stats/2025/florida/boxscore/13831"
+      },
+      "metadata": {
+        "processingTime": 41135,
+        "cost": 0.0702657,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 701775,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:41:17.737Z"
+    },
+    {
+      "school": "Goutsa",
+      "domain": "goutsa.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Charles Lamertina",
+        "umpire": "Bill Lamkin",
+        "linesman": "Braden Cox",
+        "lineJudge": "Keegan Ashbee",
+        "backJudge": "Ryan Pike",
+        "fieldJudge": "Ben Vasconcells",
+        "sideJudge": "Martine Jones",
+        "centerJudge": "Joe Clarkson"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "San Antonio, Texas / Alamodome",
+        "opponent": "Texas State",
+        "time": "Final (36-43 Loss)",
+        "boxscoreUrl": "https://goutsa.com/boxscore/1196"
+      },
+      "metadata": {
+        "processingTime": 15558,
+        "cost": 0.0547139,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 546683,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T02:41:36.319Z"
+    },
+    {
+      "school": "Tulsahurricane",
+      "domain": "tulsahurricane.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jeff Muha",
+        "centerJudge": "Tracy Jones",
+        "fieldJudge": "Bryan Fortier",
+        "lineJudge": "Adam Semo",
+        "linesman": "Collin Dolan",
+        "referee": "Matt Overton",
+        "sideJudge": "Kyle Brownell",
+        "umpire": "Alan Bartolini"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Las Cruces, NM",
+        "opponent": "New Mexico State",
+        "time": "8 p.m.",
+        "boxscoreUrl": "https://tulsahurricane.com/sports/football/stats/2025/new-mexico-state/boxscore/15814"
+      },
+      "metadata": {
+        "processingTime": 60468,
+        "cost": 0.069011,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 689249,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:42:52.176Z"
+    },
+    {
+      "school": "Riceowls",
+      "domain": "riceowls.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Robert Luklan",
+        "centerJudge": "Patrick Oldham",
+        "fieldJudge": "James Reif",
+        "lineJudge": "Joaquin Davis",
+        "linesman": "Jordan Whittington",
+        "referee": "Kevin Randall",
+        "sideJudge": "Matthew Waldron",
+        "umpire": "Joseph Pennucci"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Rice Stadium ",
+        "opponent": "Houston",
+        "time": "6 PM",
+        "boxscoreUrl": "https://riceowls.com/sports/football/stats/2025/houston/boxscore/28386"
+      },
+      "metadata": {
+        "processingTime": 57661,
+        "cost": 0.0633946,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 633076,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:44:56.399Z"
+    },
+    {
+      "school": "Owlsports",
+      "domain": "owlsports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Brandon Boudreaux",
+        "centerJudge": "James Jones",
+        "fieldJudge": "Glenn Crowther",
+        "lineJudge": "Elgie Hill",
+        "linesman": "James Hussey",
+        "referee": "Matt Beck",
+        "sideJudge": "Kevin Montz",
+        "umpire": "Jonathan Kirk"
+      },
+      "gameInfo": {
+        "date": "September 6, 2025",
+        "location": "Lincoln Financial Field",
+        "opponent": "Howard",
+        "time": "2:00 p.m.",
+        "boxscoreUrl": "https://owlsports.com/sports/football/stats/2025/howard/boxscore/13829"
+      },
+      "metadata": {
+        "processingTime": 23105,
+        "cost": 0.0710492,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 709682,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:45:22.534Z"
+    },
+    {
+      "school": "Fausports",
+      "domain": "fausports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Matthew Feid",
+        "centerJudge": "Matt Black",
+        "fieldJudge": "Christian Zamora",
+        "lineJudge": "Patrick Erwin",
+        "linesman": "Zachary Roth",
+        "referee": "Reid Jackson",
+        "sideJudge": "Jonathan Zenques",
+        "umpire": "Neal Howey"
+      },
+      "gameInfo": {
+        "date": "September 6",
+        "location": "Boca Raton, Fla.",
+        "opponent": "Florida A&M",
+        "time": "6 p.m.",
+        "boxscoreUrl": "https://fausports.com/boxscore.aspx?id=23975"
+      },
+      "metadata": {
+        "processingTime": 43828,
+        "cost": 0.0685225,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 684451,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:46:57.930Z"
+    },
+    {
+      "school": "Uabsports",
+      "domain": "uabsports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Kennedy",
+        "centerJudge": "Treavor Jones",
+        "fieldJudge": "Glen Wilson",
+        "lineJudge": "Eli Stratton",
+        "linesman": "Jeff Pruitt",
+        "referee": "Steven Anderson",
+        "sideJudge": "Dustin Drawhorn",
+        "umpire": "Tony Barrial"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Annapolis, MD",
+        "opponent": "Navy",
+        "time": "2:30 p.m.",
+        "boxscoreUrl": "https://uabsports.com/sports/football/stats/2025/navy/boxscore/22537"
+      },
+      "metadata": {
+        "processingTime": 46788,
+        "cost": 0.06130240000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 612157,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:47:47.773Z"
+    },
+    {
+      "school": "Broncosports",
+      "domain": "broncosports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": null,
+        "centerJudge": null,
+        "fieldJudge": null,
+        "lineJudge": null,
+        "linesman": null,
+        "referee": null,
+        "sideJudge": null,
+        "umpire": null
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Boise, Idaho",
+        "opponent": "Idaho",
+        "time": "1:30 p.m. MT",
+        "boxscoreUrl": "https://broncosports.com/sports/football/stats/2025/idaho/boxscore/22358"
+      },
+      "metadata": {
+        "processingTime": 77410,
+        "cost": 0.05822000000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 581348,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:49:39.173Z"
+    },
+    {
+      "school": "Csurams",
+      "domain": "csurams.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Gregory Rattler Jr.",
+        "centerJudge": "Charlie Hurd",
+        "fieldJudge": "Parker Anderson",
+        "lineJudge": "Antonio Drumming",
+        "linesman": "David Gudgell",
+        "referee": "Patrick Foy",
+        "sideJudge": "Carlos Owens",
+        "umpire": "John Schindler"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Fort Collins, CO",
+        "opponent": "Northern Colorado",
+        "time": "5:00 PM",
+        "boxscoreUrl": "https://csurams.com/sports/football/stats/2025/northern-colorado/boxscore/21264"
+      },
+      "metadata": {
+        "processingTime": 22420,
+        "cost": 0.059419,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 593395,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:50:04.633Z"
+    },
+    {
+      "school": "Goaztecs",
+      "domain": "goaztecs.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Pullman, Wash.",
+        "opponent": "Washington State",
+        "time": "7:15 PM PDT",
+        "boxscoreUrl": "https://goaztecs.com/boxscore/15521"
+      },
+      "metadata": {
+        "processingTime": 95487,
+        "cost": 0.11057700000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1105086,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T02:52:05.539Z"
+    },
+    {
+      "school": "Gobulldogs",
+      "domain": "gobulldogs.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Steven Steichen",
+        "centerJudge": "Michael Marsh",
+        "fieldJudge": "Victor Tarleton",
+        "lineJudge": "Ashante Jordan",
+        "linesman": "Henrietta Powell",
+        "referee": "John Love",
+        "sideJudge": "Hector Arias",
+        "umpire": "Michael Stephens"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Corvallis, OR",
+        "opponent": "Oregon State",
+        "time": "12:30 p.m. PT",
+        "boxscoreUrl": "https://gobulldogs.com/sports/football/stats/2025/oregon-state/boxscore/18683"
+      },
+      "metadata": {
+        "processingTime": 20910,
+        "cost": 0.0529885,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 529114,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:52:29.487Z"
+    },
+    {
+      "school": "Unlvrebels",
+      "domain": "unlvrebels.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jake Kemp",
+        "centerJudge": "Ron Kay",
+        "fieldJudge": "Justin Nelson",
+        "lineJudge": "Marcus Allen",
+        "linesman": "Michael Dolce",
+        "referee": "Bryan Banks",
+        "sideJudge": "John Hayes",
+        "umpire": "Tim Gover"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Las Vegas, NV",
+        "opponent": "UCLA",
+        "time": "5 PM PT",
+        "boxscoreUrl": "https://unlvrebels.com/sports/football/stats/2025/ucla/boxscore/17169"
+      },
+      "metadata": {
+        "processingTime": 23985,
+        "cost": 0.07301450000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 729362,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:53:02.415Z"
+    },
+    {
+      "school": "Sjsuspartans",
+      "domain": "sjsuspartans.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Daniel Gautreaux",
+        "umpire": "Ryan Aulds",
+        "linesman": "Ryan Hagan",
+        "lineJudge": "Jeremiah Harris",
+        "backJudge": "Zach Sanders",
+        "fieldJudge": "Jay Brown",
+        "sideJudge": "Cedric Clark",
+        "centerJudge": "Ryan Smith"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Austin, Texas / DKR-Texas Memorial Stadium",
+        "opponent": "Texas",
+        "time": "4:00 PM PDT",
+        "boxscoreUrl": "https://sjsuspartans.com/boxscore/7508"
+      },
+      "metadata": {
+        "processingTime": 40751,
+        "cost": 0.057885200000000005,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 578492,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T02:53:46.191Z"
+    },
+    {
+      "school": "Golobos",
+      "domain": "golobos.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Albuquerque, N.M.",
+        "opponent": "Idaho State",
+        "time": "1:00 PM MDT",
+        "boxscoreUrl": "https://golobos.com/boxscore/123"
+      },
+      "metadata": {
+        "processingTime": 111747,
+        "cost": 0.157904,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1578389,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T02:56:38.393Z"
+    },
+    {
+      "school": "Hawaiiathletics",
+      "domain": "hawaiiathletics.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "William Majors",
+        "centerJudge": "Kevin Kiley",
+        "fieldJudge": "Thomas Hubbard",
+        "lineJudge": "Steve Hoslett",
+        "linesman": "Scott Wetterstrom",
+        "referee": "Kenneth Ray",
+        "sideJudge": "Duane Moku",
+        "umpire": "Curnelius Arnick"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Honolulu, O‘ahu",
+        "opponent": "Sam Houston",
+        "time": "6:00 P.M. HT",
+        "boxscoreUrl": "https://hawaiiathletics.com/boxscore.aspx?id=27226"
+      },
+      "metadata": {
+        "processingTime": 23576,
+        "cost": 0.0801637,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 800818,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:57:17.591Z"
+    },
+    {
+      "school": "Utahstateaggies",
+      "domain": "utahstateaggies.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Tom Fimmen",
+        "centerJudge": null,
+        "fieldJudge": "John Wisnewski",
+        "lineJudge": "Adam Loudin",
+        "linesman": "Chad Green",
+        "referee": "Jeff Heaser",
+        "sideJudge": "Glen Fucik",
+        "umpire": "Michael Moten"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "College Station, Texas",
+        "opponent": "#19 Texas A&M",
+        "time": "10:45 a.m. MT",
+        "boxscoreUrl": "https://utahstateaggies.com/sports/football/stats/2025/-19-texas-am/boxscore/16298"
+      },
+      "metadata": {
+        "processingTime": 47587,
+        "cost": 0.061420999999999996,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 613445,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:58:08.236Z"
+    },
+    {
+      "school": "Gowyo",
+      "domain": "gowyo.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Byron Adams",
+        "centerJudge": null,
+        "fieldJudge": "Terrell Turner",
+        "lineJudge": "Garr Holland",
+        "linesman": "George Shoup",
+        "referee": "Cal McNeil",
+        "sideJudge": "Josh Hewitt",
+        "umpire": "Rico Orsot"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Jonah Field at War Memorial Stadium",
+        "opponent": "University of Northern Iowa",
+        "time": "2 p.m. MT",
+        "boxscoreUrl": "https://gowyo.com/sports/football/stats/2025/university-of-northern-iowa/boxscore/6608"
+      },
+      "metadata": {
+        "processingTime": 22983,
+        "cost": 0.0789421,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 788569,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T02:59:34.261Z"
+    },
+    {
+      "school": "Nevadawolfpack",
+      "domain": "nevadawolfpack.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Aaronian",
+        "centerJudge": "Marcus Thornton",
+        "fieldJudge": "Justin Ford",
+        "lineJudge": "Tony Wright",
+        "linesman": "Gregory Downum",
+        "referee": "Brad Carrell",
+        "sideJudge": "Antoine Cason",
+        "umpire": "Austin Wright"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Reno, Nev.",
+        "opponent": "Sacramento State",
+        "time": "2 P.M.",
+        "boxscoreUrl": "https://nevadawolfpack.com/boxscore.aspx?id=12470"
+      },
+      "metadata": {
+        "processingTime": 42733,
+        "cost": 0.0718403,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 717608,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:00:20.040Z"
+    },
+    {
+      "school": "Goairforcefalcons",
+      "domain": "goairforcefalcons.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "10/04/25",
+        "location": "Annapolis, Md.",
+        "opponent": "Navy",
+        "time": "10:00 am MT",
+        "boxscoreUrl": "https://goairforcefalcons.com/sports/football/stats/2025/navy/boxscore/21247"
+      },
+      "metadata": {
+        "processingTime": 86036,
+        "cost": 0.04893650000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 488786,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T03:02:43.325Z"
+    },
+    {
+      "school": "Gseagles",
+      "domain": "gseagles.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Robert Smith Jr.",
+        "centerJudge": "Brent Durbin",
+        "fieldJudge": "Phil Hicks",
+        "lineJudge": "John Wiercinski",
+        "linesman": "Bruce Keeling",
+        "referee": "Jason Nickleby",
+        "sideJudge": "Brett Henninger",
+        "umpire": "Mike Pilarski"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Los Angeles, CA",
+        "opponent": "USC",
+        "time": "7:30 PM (ET)/4:30 PM (PT)",
+        "boxscoreUrl": "https://gseagles.com/sports/football/stats/2025/usc/boxscore/14125"
+      },
+      "metadata": {
+        "processingTime": 21402,
+        "cost": 0.05550920000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 554246,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:03:07.780Z"
+    },
+    {
+      "school": "Odusports",
+      "domain": "odusports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Norfolk, Va. / Kornblau Field at S.B. Ballard Stadium",
+        "opponent": "North Carolina Central",
+        "time": "6:00 PM EDT",
+        "boxscoreUrl": "https://odusports.com/boxscore/14085"
+      },
+      "metadata": {
+        "processingTime": 110798,
+        "cost": 0.15657320000000002,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1565141,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T03:05:14.199Z"
+    },
+    {
+      "school": "Herdzone",
+      "domain": "herdzone.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Charles Daugherty",
+        "centerJudge": "Joshua Tucker",
+        "fieldJudge": "Brandon Bermea",
+        "lineJudge": "Jason Vinson",
+        "linesman": "Seth Bussey",
+        "referee": "Brandon Kirkland",
+        "sideJudge": "Keith Posey",
+        "umpire": "Brandon Bell"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Huntington, W.Va.",
+        "opponent": "Missouri State",
+        "time": "6 PM",
+        "boxscoreUrl": "https://herdzone.com/sports/football/stats/2025/missouri-state/boxscore/11012"
+      },
+      "metadata": {
+        "processingTime": 23587,
+        "cost": 0.0606534,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 605685,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:26:33.688Z"
+    },
+    {
+      "school": "jmusports.com",
+      "domain": "jmusports.com",
+      "gameDate": "09/06/25",
+      "success": false,
+      "error": "No game found on 09/06/25 for jmusports.com",
+      "metadata": {
+        "processingTime": 13788,
+        "cost": 0.0385537,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 385324,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T03:26:50.521Z"
+    },
+    {
+      "school": "Goccusports",
+      "domain": "goccusports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Allen, Jr.,Clyde",
+        "centerJudge": "Anthony Hayes",
+        "fieldJudge": "Lewis Lawhorn",
+        "lineJudge": "Jonathan Eubanks",
+        "referee": "Scott Broadway",
+        "sideJudge": "Carl Brinkley",
+        "umpire": "Vaughan Cowan"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Conway, S.C. (Brooks Stadium)",
+        "opponent": "Charleston Southern",
+        "time": "7:30 PM",
+        "boxscoreUrl": "https://goccusports.com/sports/football/stats/2025/charleston-southern/boxscore/21236"
+      },
+      "metadata": {
+        "processingTime": 38852,
+        "cost": 0.0701427,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 700524,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:27:32.425Z"
+    },
+    {
+      "school": "Appstatesports",
+      "domain": "appstatesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Wayne Johnson",
+        "centerJudge": "Michael Sweatman",
+        "fieldJudge": "Jordan Holland",
+        "lineJudge": "Matthew Loughren",
+        "referee": "Jeremy Parker",
+        "sideJudge": "Quan Poole",
+        "umpire": "Marquez Thomas",
+        "linesman": "Stuart Slaughter"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "BOONE, N.C.",
+        "opponent": "Lindenwood",
+        "time": "3:30 p.m.",
+        "boxscoreUrl": "https://appstatesports.com/sports/football/stats/2025/lindenwood/boxscore/9035"
+      },
+      "metadata": {
+        "processingTime": 34931,
+        "cost": 0.05841230000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 583196,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:28:58.808Z"
+    },
+    {
+      "school": "Georgiastatesports",
+      "domain": "georgiastatesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Chris Scott",
+        "centerJudge": "Martin Schmidt",
+        "fieldJudge": "Allen Farr",
+        "lineJudge": "Chris Pierro",
+        "linesman": "Jon Stabile",
+        "referee": "Edwin Lee",
+        "sideJudge": "Ryan Robinson",
+        "umpire": "Hilbert Byers"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Atlanta, GA (Center Parc Credit Union Stadium)",
+        "opponent": "Memphis",
+        "time": "7:00 PM",
+        "boxscoreUrl": "https://georgiastatesports.com/sports/football/stats/2025/memphis/boxscore/9920"
+      },
+      "metadata": {
+        "processingTime": 33003,
+        "cost": 0.05436150000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 542742,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:29:34.865Z"
+    },
+    {
+      "school": "Ragincajuns",
+      "domain": "ragincajuns.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jay Earnhardt",
+        "centerJudge": "Adam Reed",
+        "fieldJudge": "Terrence McClain",
+        "lineJudge": "Travis Muhammad",
+        "linesman": "Brett Denton",
+        "referee": "Marshall Lewis",
+        "sideJudge": "Andrew Bolognese",
+        "umpire": "Stanford Jackson"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Lafayette, La.",
+        "opponent": "McNeese",
+        "time": "7 p.m.",
+        "boxscoreUrl": "https://ragincajuns.com/sports/football/stats/2025/mcneese/boxscore/14531"
+      },
+      "metadata": {
+        "processingTime": 49202,
+        "cost": 0.058973899999999996,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 588836,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:31:18.575Z"
+    },
+    {
+      "school": "Ulmwarhawks",
+      "domain": "ulmwarhawks.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Brett Toney",
+        "centerJudge": "Christopher Bordelon",
+        "fieldJudge": "Clarence Cotten",
+        "lineJudge": "Trey Robinson",
+        "linesman": "Jake Weatherford",
+        "referee": "Tim Barker",
+        "sideJudge": "Jonathan Bullock",
+        "umpire": "Jason Yates"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Tuscaloosa, Ala.",
+        "opponent": "Alabama",
+        "time": "6:45 p.m. CT",
+        "boxscoreUrl": "https://ulmwarhawks.com/sports/football/stats/2025/alabama/boxscore/16191"
+      },
+      "metadata": {
+        "processingTime": 20184,
+        "cost": 0.0466724,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 465902,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:31:41.795Z"
+    },
+    {
+      "school": "Usajaguars",
+      "domain": "usajaguars.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Meenen",
+        "centerJudge": "Lonnie Brickman",
+        "fieldJudge": "Brandon Godfrey",
+        "lineJudge": "Richard Godfrey",
+        "linesman": "Marty Adams",
+        "referee": "Ted Pitts",
+        "sideJudge": "Major Sosebee",
+        "umpire": "Mark Walker"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Mobile, AL",
+        "opponent": "Tulane",
+        "time": "6 p.m. CT",
+        "boxscoreUrl": "https://usajaguars.com/boxscore.aspx?id=6961"
+      },
+      "metadata": {
+        "processingTime": 39051,
+        "cost": 0.0762112,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 761254,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:32:23.891Z"
+    },
+    {
+      "school": "Txst",
+      "domain": "txst.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Ryan Pike",
+        "centerJudge": null,
+        "fieldJudge": "Ben Vasconcells",
+        "lineJudge": "Keegan Ashbee",
+        "linesman": "Braden Cox",
+        "referee": "Charles Lamertina",
+        "sideJudge": "Martine Jones",
+        "umpire": "Bill Lamkin"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "San Antonio, Texas",
+        "opponent": "UTSA",
+        "time": "2:30 p.m.",
+        "boxscoreUrl": "https://txst.com/sports/football/stats/2025/utsa/boxscore/9555"
+      },
+      "metadata": {
+        "processingTime": 24377,
+        "cost": 0.0888218,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 887417,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:32:59.550Z"
+    },
+    {
+      "school": "Troytrojans",
+      "domain": "troytrojans.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Clay Brownlee",
+        "centerJudge": "Todd Rombach",
+        "fieldJudge": "Hugh Brown",
+        "lineJudge": "Russ Shows",
+        "linesman": "Troy Gray",
+        "referee": "Tim Hedgepeth",
+        "sideJudge": "Richard Wilborn",
+        "umpire": "William Thomas"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Clemson, S.C.",
+        "opponent": "#8 Clemson",
+        "time": "2:30 p.m.",
+        "boxscoreUrl": "https://troytrojans.com/sports/football/stats/2025/clemson/boxscore/6216"
+      },
+      "metadata": {
+        "processingTime": 21679,
+        "cost": 0.059910000000000005,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 598302,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:33:24.265Z"
+    },
+    {
+      "school": "Southernmiss",
+      "domain": "southernmiss.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Eric Apolenis",
+        "centerJudge": "Lance Bobbitt",
+        "fieldJudge": "William Elliot",
+        "lineJudge": "Terry Allgeier",
+        "linesman": "Elijah Ajayi",
+        "referee": "Trennis Livingston",
+        "sideJudge": "Keythric Merriweather",
+        "umpire": "Jonathan Gibson"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Hattiesburg, Miss. / M.M. Roberts Stadium",
+        "opponent": "Jackson State",
+        "time": "4 p.m.",
+        "boxscoreUrl": "https://southernmiss.com/sports/football/stats/2025/jackson-state/boxscore/11767"
+      },
+      "metadata": {
+        "processingTime": 22570,
+        "cost": 0.06714590000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 670589,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:33:49.877Z"
+    },
+    {
+      "school": "Smumustangs",
+      "domain": "smumustangs.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jim Sima",
+        "centerJudge": "Stacy Hardin",
+        "fieldJudge": "Lark Jones",
+        "lineJudge": "Mark Estermyer",
+        "referee": "Cravonne Barrett",
+        "sideJudge": "Fulton Carson",
+        "linesman": "Kirk Mattson",
+        "umpire": "Michael Henderson"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Dallas, Texas",
+        "opponent": "Baylor ",
+        "time": "11am CT",
+        "boxscoreUrl": "https://smumustangs.com/sports/football/stats/2025/baylor/boxscore/13641"
+      },
+      "metadata": {
+        "processingTime": 23175,
+        "cost": 0.0687034,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 686221,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:34:16.098Z"
+    },
+    {
+      "school": "Clemson Tigers",
+      "domain": "clemsontigers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Tim Hedgepeth",
+        "umpire": "William Thomas",
+        "linesman": "Troy Gray",
+        "lineJudge": "Russ Shows",
+        "backJudge": "Clay Brownlee",
+        "fieldJudge": "Hugh Brown",
+        "sideJudge": "Richard Wilborn",
+        "centerJudge": "Todd Rombach"
+      },
+      "gameInfo": {
+        "date": "Saturday, September 06",
+        "location": "Memorial Stadium | Clemson, S.C.",
+        "opponent": "Troy",
+        "time": "W, 27 - 16",
+        "boxscoreUrl": "https://clemsontigers.com/no-8-tigers-use-big-second-half-to-down-troy-27-16/"
+      },
+      "metadata": {
+        "processingTime": 16222,
+        "cost": 0.0082122,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 81642,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T03:34:35.346Z"
+    },
+    {
+      "school": "Miamihurricanes",
+      "domain": "miamihurricanes.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Hard Rock Stadium",
+        "opponent": "Bethune-Cookman",
+        "time": "7:00 pm",
+        "boxscoreUrl": "https://miamihurricanes.com/boxscore/bethune-cookman-2025-fb/"
+      },
+      "metadata": {
+        "processingTime": 62160,
+        "cost": 0.0203054,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 202298,
+        "operations": 4
+      },
+      "timestamp": "2025-09-30T03:35:43.028Z"
+    },
+    {
+      "school": "Gocards",
+      "domain": "gocards.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "10/04/25",
+        "location": "LOUISVILLE, KY",
+        "opponent": "Virginia",
+        "time": "3:30 p.m.",
+        "boxscoreUrl": "https://gocards.com/sports/football/stats/2025/virginia/boxscore/25562"
+      },
+      "metadata": {
+        "processingTime": 88080,
+        "cost": 0.0678413,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 677792,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T03:38:23.577Z"
+    },
+    {
+      "school": "Pittsburghpanthers",
+      "domain": "pittsburghpanthers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Antony Little",
+        "centerJudge": "Bilal Abdullah",
+        "fieldJudge": "Kenny Wilson",
+        "lineJudge": "Todd Riddick",
+        "linesman": "Deon Lawrence",
+        "referee": "Justin Elliott",
+        "sideJudge": "Mark Brull",
+        "umpire": "Danny Worrell"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Pittsburgh, PA",
+        "opponent": "Central Michigan",
+        "time": "Noon",
+        "boxscoreUrl": "https://pittsburghpanthers.com/sports/football/stats/2025/central-michigan/boxscore/14727"
+      },
+      "metadata": {
+        "processingTime": 20938,
+        "cost": 0.045513500000000005,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 454310,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:38:47.558Z"
+    },
+    {
+      "school": "ramblinwreck.com",
+      "domain": "ramblinwreck.com",
+      "gameDate": "09/06/25",
+      "success": false,
+      "error": "No game found on 09/06/25 for ramblinwreck.com",
+      "metadata": {
+        "processingTime": 22825,
+        "cost": 0.0027519,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 27429,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T03:39:24.003Z"
+    },
+    {
+      "school": "Duke Blue Devils",
+      "domain": "goduke.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jeff Latkiewicz",
+        "centerJudge": "Gregory Nelson",
+        "fieldJudge": "Kyle DeBuse",
+        "lineJudge": "Jeff Szink",
+        "linesman": "Ric Hinkamper",
+        "referee": "Ron Snodgrass",
+        "sideJudge": "Todd Ransom",
+        "umpire": null
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Durham, N.C.",
+        "opponent": "Illinois",
+        "time": "12 p.m.",
+        "boxscoreUrl": "https://goduke.com/sports/football/stats/2025/illinois/boxscore/24212"
+      },
+      "metadata": {
+        "processingTime": 29567,
+        "cost": 0.0727956,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 727167,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:39:56.639Z"
+    },
+    {
+      "school": "Cuse",
+      "domain": "cuse.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jacques Hooper",
+        "centerJudge": "Tee Jones",
+        "fieldJudge": "Michael Hall",
+        "lineJudge": "Alex Amaya",
+        "linesman": "Keith Tatum",
+        "referee": "Gary Patterson",
+        "sideJudge": "Jerry Walter",
+        "umpire": "Michael Wooten"
+      },
+      "gameInfo": {
+        "date": "Sep 06",
+        "location": "Syracuse, N.Y.",
+        "opponent": "UConn",
+        "time": "Final",
+        "boxscoreUrl": "https://cuse.com/boxscore.aspx?id=18372"
+      },
+      "metadata": {
+        "processingTime": 44555,
+        "cost": 0.0678465,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 677691,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:40:44.234Z"
+    },
+    {
+      "school": "Virginiasports",
+      "domain": "virginiasports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Jon Noli",
+        "umpire": "Johnnie Forte",
+        "linesman": "Benjamin Keller",
+        "lineJudge": "Juan Cardenas",
+        "backJudge": "Ken Bushey",
+        "fieldJudge": "Jace Carlson",
+        "sideJudge": "Rick Santilli",
+        "centerJudge": "Ryan Wingers"
+      },
+      "gameInfo": {
+        "date": "September 6",
+        "location": "Raleigh, N.C.",
+        "opponent": "NC State (Non-Conference)",
+        "time": "12:00 pm",
+        "boxscoreUrl": "https://virginiasports.com/news/2025/09/06/cavaliers-edged-by-nc-state-35-31/"
+      },
+      "metadata": {
+        "processingTime": 10963,
+        "cost": 0.009891200000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 98420,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T03:40:58.232Z"
+    },
+    {
+      "school": "Hokiesports",
+      "domain": "hokiesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Blacksburg, Va.",
+        "opponent": "Vanderbilt",
+        "time": "Final",
+        "boxscoreUrl": "https://hokiesports.com/boxscore/21762"
+      },
+      "metadata": {
+        "processingTime": 110298,
+        "cost": 0.1581679,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1581181,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T03:42:57.975Z"
+    },
+    {
+      "school": "Goheels",
+      "domain": "goheels.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Defee",
+        "centerJudge": "Jon Baden",
+        "fieldJudge": "Kip Johnson",
+        "lineJudge": "Peter Beratta",
+        "linesman": "Darryl Johnson",
+        "referee": "Adam Savoie",
+        "sideJudge": "Brian McGready",
+        "umpire": "Troy Ridley"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Charlotte, N.C. (Jerry Richardson Stadium)",
+        "opponent": "Charlotte",
+        "time": "7 PM",
+        "boxscoreUrl": "https://goheels.com/sports/football/stats/2025/charlotte/boxscore/26005"
+      },
+      "metadata": {
+        "processingTime": 22437,
+        "cost": 0.0789302,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 788486,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:43:36.764Z"
+    },
+    {
+      "school": "Bceagles",
+      "domain": "bceagles.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Federick Dimpfel",
+        "centerJudge": "William Bonet",
+        "fieldJudge": "Steve Currie",
+        "lineJudge": "Colin Formulak",
+        "linesman": "Dan Harrington",
+        "referee": "Jerry Magallanes",
+        "sideJudge": "Aaron Hochuli",
+        "umpire": "Jeremy Epps"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "East Lansing, MI",
+        "opponent": "Michigan State",
+        "time": "7:30 p.m.",
+        "boxscoreUrl": "https://bceagles.com/sports/football/stats/2025/michigan-state/boxscore/26091"
+      },
+      "metadata": {
+        "processingTime": 42525,
+        "cost": 0.06363680000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 635558,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:44:22.333Z"
+    },
+    {
+      "school": "Godeacs",
+      "domain": "godeacs.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Garrett Dickerson",
+        "umpire": "Jonathan Forte",
+        "linesman": "Peter News",
+        "lineJudge": "Josiah Ford",
+        "backJudge": "Terry Woodford",
+        "fieldJudge": "Trey Castleberry",
+        "sideJudge": "Mike Cullin",
+        "centerJudge": "Larry Saunders"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Winston-Salem, N.C.",
+        "opponent": "Western Carolina",
+        "time": "2 p.m.",
+        "boxscoreUrl": "https://godeacs.com/sports/football/stats/2025/western-carolina/boxscore/14148"
+      },
+      "metadata": {
+        "processingTime": 14239,
+        "cost": 0.0268443,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 268056,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T03:44:39.610Z"
+    },
+    {
+      "school": "Gopack",
+      "domain": "gopack.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Ken Bushey",
+        "centerJudge": "Ryan Wingers",
+        "fieldJudge": "Jace Carlson",
+        "lineJudge": "Juan Cardenas",
+        "linesman": "Benjamin Keller",
+        "referee": "Jon Noli",
+        "sideJudge": "Rick Santilli",
+        "umpire": "Johnnie Forte"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Carter-Finley Stadium",
+        "opponent": "Virginia (Non-Conference)",
+        "time": "12:00pm",
+        "boxscoreUrl": "https://gopack.com/sports/football/stats/2025/virginia-non-conference-/boxscore/23939"
+      },
+      "metadata": {
+        "processingTime": 21691,
+        "cost": 0.0616968,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 616206,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:45:42.106Z"
+    },
+    {
+      "school": "Florida State Seminoles",
+      "domain": "seminoles.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Scott Prewitt",
+        "centerJudge": "Larry Hayes",
+        "fieldJudge": "Conor Clougherty",
+        "lineJudge": "Jim Casey",
+        "linesman": "John Hoffman",
+        "referee": "Darryl DeBerry",
+        "sideJudge": "Jamal Shears",
+        "umpire": "Sean Geraghty"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Commerce, TX",
+        "opponent": "East Texas A&M",
+        "time": "12:00 PM",
+        "boxscoreUrl": "https://seminoles.com/game-center/15923"
+      },
+      "metadata": {
+        "processingTime": 65358,
+        "cost": 0.1111858,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1110874,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T03:46:50.495Z"
+    },
+    {
+      "school": "Jaxstatesports",
+      "domain": "jaxstatesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Andy Lebo",
+        "centerJudge": "Paul Mitchell",
+        "fieldJudge": null,
+        "lineJudge": "Craig Dunn",
+        "linesman": "Jerry Harris",
+        "referee": "Rodney Burnette",
+        "sideJudge": "Henry Howard",
+        "umpire": "Dongray Johnson"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "AmFirst Stadium",
+        "opponent": "Liberty",
+        "time": "11 a.m.",
+        "boxscoreUrl": "https://jaxstatesports.com/sports/football/stats/2025/liberty/boxscore/8100"
+      },
+      "metadata": {
+        "processingTime": 21848,
+        "cost": 0.05595920000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 558812,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:47:15.394Z"
+    },
+    {
+      "school": "Gobearkats",
+      "domain": "gobearkats.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "William Majors",
+        "centerJudge": "Kevin Kiley",
+        "fieldJudge": "Thomas Hubbard",
+        "lineJudge": "Steve Hoslett",
+        "referee": "Kenneth Ray",
+        "sideJudge": "Duane Moku",
+        "umpire": "Curnelius Arnick"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Honolulu, Hawaii",
+        "opponent": "Hawaii",
+        "time": "11:00 PM",
+        "boxscoreUrl": "https://gobearkats.com/sports/football/stats/2025/hawaii/boxscore/13762"
+      },
+      "metadata": {
+        "processingTime": 34865,
+        "cost": 0.0644854,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 644014,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:48:01.256Z"
+    },
+    {
+      "school": "Wkusports",
+      "domain": "wkusports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {},
+      "gameInfo": {
+        "date": "10/03/25",
+        "location": "Newark, DE",
+        "opponent": "Delaware",
+        "time": "6 p.m.",
+        "boxscoreUrl": "https://wkusports.com/sports/football/stats/2025/delaware/boxscore/12960"
+      },
+      "metadata": {
+        "processingTime": 116795,
+        "cost": 0.0635843,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 635213,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T03:51:30.286Z"
+    },
+    {
+      "school": "Libertyflames",
+      "domain": "libertyflames.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Andy Lebo",
+        "centerJudge": "Paul Mitchell",
+        "fieldJudge": null,
+        "lineJudge": "Craig Dunn",
+        "linesman": "Jerry Harris",
+        "referee": "Rodney Burnette",
+        "sideJudge": "Henry Howard",
+        "umpire": "Dongray Johnson"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Jacksonville, Ala.",
+        "opponent": "Jacksonville State",
+        "time": "12:00 PM ET/11:00 AM CT",
+        "boxscoreUrl": "https://libertyflames.com/sports/football/stats/2025/jacksonville-state/boxscore/14797"
+      },
+      "metadata": {
+        "processingTime": 38929,
+        "cost": 0.10771820000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 1076363,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:52:27.798Z"
+    },
+    {
+      "school": "Latechsports",
+      "domain": "latechsports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Peter Buchanan",
+        "centerJudge": "Chris Snead",
+        "fieldJudge": "Jeffrey Cargile",
+        "lineJudge": "Colin Gaynor",
+        "linesman": "Brian Davis",
+        "referee": "Jason Autrey",
+        "sideJudge": "Ryan Flynn",
+        "umpire": "Matthew Overmyer"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Baton Rouge, La.",
+        "opponent": "#3 LSU",
+        "time": "6:30 p.m.",
+        "boxscoreUrl": "https://latechsports.com/sports/football/stats/2025/lsu/boxscore/6713"
+      },
+      "metadata": {
+        "processingTime": 21331,
+        "cost": 0.0527423,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 526604,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:52:52.191Z"
+    },
+    {
+      "school": "Fiusports",
+      "domain": "fiusports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Bob Stinson",
+        "centerJudge": "Daniel Novak",
+        "fieldJudge": "Nicole Randolph",
+        "lineJudge": "Jeff Meslow",
+        "linesman": "BJ Henry",
+        "referee": "Tim O'Dey",
+        "sideJudge": "Joel Clay",
+        "umpire": "Ken Zelmanski"
+      },
+      "gameInfo": {
+        "date": "Sep 6, 2025",
+        "location": "University Park, Pa. (Beaver Stadium)",
+        "opponent": "#2 Penn State",
+        "time": "Noon",
+        "boxscoreUrl": "https://fiusports.com/sports/football/stats/2025/#2-penn-state/boxscore/12882"
+      },
+      "metadata": {
+        "processingTime": 60436,
+        "cost": 0.08495450000000002,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 848501,
+        "operations": 3
+      },
+      "timestamp": "2025-09-30T03:54:56.099Z"
+    },
+    {
+      "school": "Goblueraiders",
+      "domain": "goblueraiders.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Jeff Servinski",
+        "umpire": "Ryan McClellan",
+        "linesman": "Ryan MacDonald",
+        "lineJudge": "Vincent Winters",
+        "backJudge": "Dennis Morris",
+        "fieldJudge": "Reginald Berry",
+        "sideJudge": "Matt Kukar",
+        "centerJudge": "Jason Grant"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Madison, WI",
+        "opponent": "Wisconsin",
+        "time": "3:00 PM",
+        "boxscoreUrl": "https://goblueraiders.com/sports/football/stats/2025/wisconsin/boxscore/14311"
+      },
+      "metadata": {
+        "processingTime": 54727,
+        "cost": 0.020773700000000003,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 207386,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T03:55:53.869Z"
+    },
+    {
+      "school": "Utepminers",
+      "domain": "utepminers.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Brandon Bullock",
+        "centerJudge": "Brian Bortness",
+        "fieldJudge": "Ryan McLemore",
+        "lineJudge": "Stephen Henley",
+        "referee": "Reed Brotherton",
+        "sideJudge": "Adrian Carson",
+        "umpire": null,
+        "linesman": "Bob Pritchett"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "El Paso, Texas",
+        "opponent": "UT Martin",
+        "time": "7 PM MT",
+        "boxscoreUrl": "https://utepminers.com/boxscore.aspx?id=12050"
+      },
+      "metadata": {
+        "processingTime": 35157,
+        "cost": 0.0669348,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 668478,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:56:38.189Z"
+    },
+    {
+      "school": "Nmstatesports",
+      "domain": "nmstatesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jeff Muha",
+        "centerJudge": "Tracy Jones",
+        "fieldJudge": "Bryan Fortier",
+        "lineJudge": "Adam Semo",
+        "linesman": "Collin Dolan",
+        "referee": "Matt Overton",
+        "sideJudge": "Kyle Brownell",
+        "umpire": "Alan Bartolini"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Las Cruces, N.M.",
+        "opponent": "Tulsa",
+        "time": "7 p.m. MT",
+        "boxscoreUrl": "https://nmstatesports.com/sports/football/stats/2025/tulsa/boxscore/18458"
+      },
+      "metadata": {
+        "processingTime": 21069,
+        "cost": 0.05621720000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 561353,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:57:02.297Z"
+    },
+    {
+      "school": "Ksuowls",
+      "domain": "ksuowls.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jamar Simpson",
+        "centerJudge": "JP Williams",
+        "fieldJudge": "Carmen Williams",
+        "lineJudge": "Adam Parsons",
+        "linesman": "Julie Howell",
+        "referee": "Chris La Mange",
+        "sideJudge": "Damany Williams",
+        "umpire": "Matthew Unertl"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Bloomington, IN",
+        "opponent": "#23/21 Indiana",
+        "time": "12 p.m.",
+        "boxscoreUrl": "https://ksuowls.com/sports/football/stats/2025/indiana/boxscore/14174"
+      },
+      "metadata": {
+        "processingTime": 37363,
+        "cost": 0.07864299999999999,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 785557,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:57:42.684Z"
+    },
+    {
+      "school": "Uncbears",
+      "domain": "uncbears.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Gregory Rattler Jr.",
+        "centerJudge": "Charlie Hurd",
+        "fieldJudge": "Parker Anderson",
+        "lineJudge": "Antonio Drumming",
+        "linesman": "David Gudgell",
+        "referee": "Patrick Foy",
+        "sideJudge": "Carlos Owens",
+        "umpire": "John Schindler"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Fort Collins, Colo.",
+        "opponent": "Colorado State",
+        "time": "5 p.m. MT",
+        "boxscoreUrl": "https://uncbears.com/sports/football/stats/2025/colorado-state/boxscore/14192"
+      },
+      "metadata": {
+        "processingTime": 22108,
+        "cost": 0.07055120000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 704714,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:58:32.886Z"
+    },
+    {
+      "school": "Nauathletics",
+      "domain": "nauathletics.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Phil Solis",
+        "centerJudge": null,
+        "fieldJudge": "Aaron Olivares",
+        "lineJudge": "John Livingston",
+        "linesman": "Joel Bingham",
+        "referee": "Jeff Rink",
+        "sideJudge": "Luke Raynor",
+        "umpire": "Roger Stewart"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Flagstaff, Ariz. (Findlay Toyota Field)",
+        "opponent": "Utah Tech",
+        "time": "2 p.m.",
+        "boxscoreUrl": "https://nauathletics.com/sports/football/stats/2025/utah-tech/boxscore/4849"
+      },
+      "metadata": {
+        "processingTime": 53470,
+        "cost": 0.0413265,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 412380,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T03:59:29.420Z"
+    },
+    {
+      "school": "Msubobcats",
+      "domain": "msubobcats.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Kelly Holman",
+        "lineJudge": "",
+        "umpire": "Bobby Alcantar",
+        "linesman": "Michael Papushak",
+        "sideJudge": "Quentin Brooks",
+        "backJudge": "Brian Earls",
+        "fieldJudge": "Brian Beck"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "BOZEMAN",
+        "opponent": "South Dakota State",
+        "time": "6 pm",
+        "boxscoreUrl": "https://msubobcats.com/sports/football/stats/2025/south-dakota-state/boxscore/5851"
+      },
+      "metadata": {
+        "processingTime": 38948,
+        "cost": 0.0344323,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 343918,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T04:00:11.394Z"
+    },
+    {
+      "school": "gogriz.com",
+      "domain": "gogriz.com",
+      "gameDate": "09/06/25",
+      "success": false,
+      "error": "No game found on 09/06/25 for gogriz.com",
+      "metadata": {
+        "processingTime": 25367,
+        "cost": 0,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 0,
+        "operations": 0
+      },
+      "timestamp": "2025-09-30T04:00:42.668Z"
+    },
+    {
+      "school": "Isubengals",
+      "domain": "isubengals.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Jeremy Waddle",
+        "centerJudge": "Jonathan Braun",
+        "fieldJudge": "Toreland Smith",
+        "lineJudge": "Jim Pidcoe",
+        "linesman": "Rob Marks",
+        "referee": "Gary Reed",
+        "sideJudge": "Shawn Norman",
+        "umpire": "Damian Droessler"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Albuquerque, NM",
+        "opponent": "New Mexico",
+        "time": "1:00 PM",
+        "boxscoreUrl": "https://isubengals.com/sports/football/stats/2025/new-mexico/boxscore/7488"
+      },
+      "metadata": {
+        "processingTime": 20090,
+        "cost": 0.0475013,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 474188,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:01:05.796Z"
+    },
+    {
+      "school": "Weberstatesports",
+      "domain": "weberstatesports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Christopher Alston",
+        "centerJudge": "Ty Druse",
+        "fieldJudge": "Scott Gaines",
+        "lineJudge": "Bret Bascue",
+        "linesman": "Graig Reed",
+        "referee": "Tutashinda Salaam",
+        "sideJudge": "Jason Harris",
+        "umpire": "Bill Lamkin"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Tucson, AZ",
+        "opponent": "Arizona",
+        "time": "8:00 p.m. MT",
+        "boxscoreUrl": "https://weberstatesports.com/sports/football/stats/2025/arizona/boxscore/6000"
+      },
+      "metadata": {
+        "processingTime": 23077,
+        "cost": 0.05791879999999999,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 578384,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:01:31.912Z"
+    },
+    {
+      "school": "Hornetsports",
+      "domain": "hornetsports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Michael Aaronian",
+        "centerJudge": "Marcus Thornton",
+        "fieldJudge": "Justin Ford",
+        "lineJudge": "Tony Wright",
+        "linesman": "Gregory Downum",
+        "referee": "Brad Carrell",
+        "sideJudge": "Antoine Cason",
+        "umpire": "Austin Wright"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Reno, NV",
+        "opponent": "Nevada",
+        "time": "2 PM",
+        "boxscoreUrl": "https://hornetsports.com/sports/football/stats/2025/nevada/boxscore/13746"
+      },
+      "metadata": {
+        "processingTime": 21213,
+        "cost": 0.0546789,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 546000,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:01:56.177Z"
+    },
+    {
+      "school": "Goviks",
+      "domain": "goviks.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Brady Paganelli",
+        "centerJudge": "Matt Powell",
+        "fieldJudge": "Glenn Gist",
+        "lineJudge": "Dominique Sutton-Angrum",
+        "linesman": "Andrew Szink",
+        "referee": "John Shay",
+        "sideJudge": "Austin Hills",
+        "umpire": "Dalton Barksdale"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Grand Forks, ND",
+        "opponent": "North Dakota",
+        "time": "6 p.m. CT/4 p.m. PT",
+        "boxscoreUrl": "https://goviks.com/sports/football/stats/2025/north-dakota/boxscore/5477"
+      },
+      "metadata": {
+        "processingTime": 21115,
+        "cost": 0.0509878,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 508972,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:02:45.467Z"
+    },
+    {
+      "school": "Gopoly",
+      "domain": "gopoly.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Matthew Hill",
+        "centerJudge": "Joshua Rusack",
+        "fieldJudge": "Edward Vinzant",
+        "lineJudge": "Jay Swanigan",
+        "linesman": "Catherine Conti",
+        "referee": "Lyndon Nixon",
+        "sideJudge": "Michael Sparling",
+        "umpire": "Anthony Gibson"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Salt Lake City, UT",
+        "opponent": "No. 25 Utah",
+        "time": "3 P.M.",
+        "boxscoreUrl": "https://gopoly.com/sports/football/stats/2025/utah/boxscore/8944"
+      },
+      "metadata": {
+        "processingTime": 23287,
+        "cost": 0.0738772,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 737962,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:03:11.796Z"
+    },
+    {
+      "school": "Goeags",
+      "domain": "goeags.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "referee": "Gary Leeper",
+        "umpire": "Phillip Anaya",
+        "linesman": "Keith Johnson",
+        "lineJudge": "James Hussey",
+        "backJudge": "Reginald Andrews",
+        "fieldJudge": "Kevin Montz",
+        "sideJudge": "Joseph Parks",
+        "centerJudge": "Rich Lacsamana"
+      },
+      "gameInfo": {
+        "date": "Sep 27 (Sat)",
+        "location": "Bozeman, Mont. (Bobcat Stadium)",
+        "opponent": "Montana State",
+        "time": "1 pm PT / 2 pm MT",
+        "boxscoreUrl": "https://goeags.com/sports/football/stats/2025/montana-state/boxscore/5879"
+      },
+      "metadata": {
+        "processingTime": 60370,
+        "cost": 0.0234532,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 234121,
+        "operations": 1
+      },
+      "timestamp": "2025-09-30T04:04:15.190Z"
+    },
+    {
+      "school": "Bucknellbison",
+      "domain": "bucknellbison.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "George O'Brien",
+        "centerJudge": null,
+        "fieldJudge": "Jonathan Nadeau",
+        "lineJudge": "Cullen Nauck",
+        "linesman": "Gary Corvelo",
+        "referee": "Edward Roos",
+        "sideJudge": "R. Kyle Snow",
+        "umpire": "William O'Brien"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Poughkeepsie, N.Y.",
+        "opponent": "Marist ",
+        "time": "1 p.m.",
+        "boxscoreUrl": "https://bucknellbison.com/sports/football/stats/2025/marist/boxscore/20179"
+      },
+      "metadata": {
+        "processingTime": 66548,
+        "cost": 0.06647910000000001,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 663906,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:05:37.716Z"
+    },
+    {
+      "school": "Colgateathletics",
+      "domain": "colgateathletics.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Ronald Roberts Jr.",
+        "centerJudge": "Nicholas Perine",
+        "fieldJudge": "Stephen Borchard",
+        "lineJudge": "Kevin Taylor",
+        "linesman": "Brian Wetneat",
+        "referee": "Bill McKeever",
+        "sideJudge": "Benjamin Truskowski",
+        "umpire": "Nicholas Perine"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Villanova, Pa.",
+        "opponent": "Villanova",
+        "time": "6 p.m.",
+        "boxscoreUrl": "https://colgateathletics.com/sports/football/stats/2025/villanova/boxscore/11064"
+      },
+      "metadata": {
+        "processingTime": 23879,
+        "cost": 0.066947,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 668669,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:06:04.647Z"
+    },
+    {
+      "school": "Goholycross",
+      "domain": "goholycross.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Tyler Arlington",
+        "centerJudge": null,
+        "fieldJudge": "Eric Monroe",
+        "lineJudge": "Joe Letizia",
+        "linesman": null,
+        "referee": "Jeremy DeAngulo",
+        "sideJudge": "Kyle Brown",
+        "umpire": "David Hack"
+      },
+      "gameInfo": {
+        "date": "09/06/25",
+        "location": "Durham, N.H.",
+        "opponent": "New Hampshire",
+        "time": "7:00 PM",
+        "boxscoreUrl": "https://goholycross.com/sports/football/stats/2025/new-hampshire/boxscore/11823"
+      },
+      "metadata": {
+        "processingTime": 24240,
+        "cost": 0.0748752,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 747951,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:06:31.920Z"
+    },
+    {
+      "school": "Goleopards",
+      "domain": "goleopards.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Travis Bond",
+        "centerJudge": null,
+        "fieldJudge": "Darryl Lee",
+        "lineJudge": "Nick Froslear",
+        "linesman": "Michael Nolan",
+        "referee": "Michael Quinn",
+        "sideJudge": "Keith Fell",
+        "umpire": "Avis Smith"
+      },
+      "gameInfo": {
+        "date": "Sep 6 (Sat)",
+        "location": "Easton, Mass.",
+        "opponent": "Stonehill",
+        "time": "1:00 PM",
+        "boxscoreUrl": "https://goleopards.com/sports/football/stats/2025/stonehill/boxscore/13284"
+      },
+      "metadata": {
+        "processingTime": 51836,
+        "cost": 0.063095,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 630065,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:07:29.365Z"
+    },
+    {
+      "school": "Lehighsports",
+      "domain": "lehighsports.com",
+      "gameDate": "09/06/25",
+      "success": true,
+      "officials": {
+        "backJudge": "Justin Fortier",
+        "centerJudge": null,
+        "fieldJudge": "Daniel Foreman",
+        "lineJudge": "Chase Barmoy",
+        "linesman": "Eugene Higgins",
+        "referee": "Henry Wimberg",
+        "sideJudge": "Bryant Ferguson",
+        "umpire": "David Sabilia"
+      },
+      "gameInfo": {
+        "date": "Sep 6",
+        "location": "Bethlehem, Pa.",
+        "opponent": "#25/22 Richmond",
+        "time": "12:00 PM",
+        "boxscoreUrl": "https://lehighsports.com/sports/football/stats/2025/sacred-heart/boxscore/15252"
+      },
+      "metadata": {
+        "processingTime": 46515,
+        "cost": 0.0701492,
+        "provider": "gemini",
+        "model": "gemini-flash-lite-latest",
+        "tokensUsed": 700577,
+        "operations": 2
+      },
+      "timestamp": "2025-09-30T04:08:18.929Z"
+    }
+  ],
+  "testedAt": "2025-09-30T04:08:18.929Z"
+}
