@@ -123,7 +123,11 @@ export class GeminiExtractor extends BaseExtractor {
   ): Promise<PdfLinkExtractionResult> {
     try {
       console.log(`Looking for PDF boxscore link for game vs ${opponent}`);
-      
+
+      // Preprocess HTML to reduce tokens
+      const processedHtml = this.preprocessHtml(htmlContent, false);
+      console.log(`📉 Reduced HTML from ${htmlContent.length} to ${processedHtml.length} bytes`);
+
       const prompt = `
 You are analyzing a college football boxscore page looking for a PDF boxscore link.
 
@@ -166,7 +170,7 @@ Return a JSON object with:
             required: ["pdfFound"]
           } as any
         }
-      }).generateContent([prompt, htmlContent]);
+      }).generateContent([prompt, processedHtml]);
       
       const response = await result.response;
       this.trackTokenUsage(response, 'PDF Link Extraction');
@@ -204,6 +208,54 @@ Return a JSON object with:
     }
   }
 
+  /**
+   * Preprocess HTML to reduce token usage by extracting only relevant content
+   */
+  private preprocessHtml(html: string, isSchedulePage: boolean = true): string {
+    try {
+      // Remove script tags and their content
+      html = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+
+      // Remove style tags and their content
+      html = html.replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '');
+
+      // Remove comments
+      html = html.replace(/<!--[\s\S]*?-->/g, '');
+
+      // Remove common navigation/footer elements
+      html = html.replace(/<nav\b[^>]*>[\s\S]*?<\/nav>/gi, '');
+      html = html.replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi, '');
+      html = html.replace(/<header\b[^>]*>[\s\S]*?<\/header>/gi, '');
+
+      // Remove excessive whitespace
+      html = html.replace(/\s+/g, ' ');
+
+      if (isSchedulePage) {
+        // For schedule pages, try to extract just the schedule table/section
+        const scheduleMatch = html.match(/<table[^>]*schedule[^>]*>[\s\S]*?<\/table>/i) ||
+                             html.match(/<div[^>]*schedule[^>]*>[\s\S]*?<\/div>/i) ||
+                             html.match(/<section[^>]*schedule[^>]*>[\s\S]*?<\/section>/i);
+
+        if (scheduleMatch) {
+          console.log('📊 Extracted schedule section only');
+          return scheduleMatch[0];
+        }
+      }
+
+      // Limit to reasonable size (max 100KB for schedule, 150KB for boxscore)
+      const maxLength = isSchedulePage ? 100000 : 150000;
+      if (html.length > maxLength) {
+        console.log(`⚠️ HTML too large (${html.length} bytes), truncating to ${maxLength} bytes`);
+        html = html.substring(0, maxLength);
+      }
+
+      return html;
+    } catch (error) {
+      console.warn('HTML preprocessing failed, using original:', error);
+      return html;
+    }
+  }
+
   async extractGameLink(
     htmlContent: string,
     targetDate: string,
@@ -211,7 +263,11 @@ Return a JSON object with:
   ): Promise<GameLinkExtractionResult> {
     try {
       console.log(`Looking for game link on schedule page for ${targetDate}`);
-      
+
+      // Preprocess HTML to reduce tokens
+      const processedHtml = this.preprocessHtml(htmlContent, true);
+      console.log(`📉 Reduced HTML from ${htmlContent.length} to ${processedHtml.length} bytes`);
+
       const prompt = `
 You are analyzing a college football schedule page from ${schoolDomain}.
 
@@ -241,8 +297,8 @@ Important:
 
 Return the data in the structured JSON format with both boxscoreUrl and pdfUrl fields.
 `;
-      
-      const result = await this.gameLinkModel.generateContent([prompt, htmlContent]);
+
+      const result = await this.gameLinkModel.generateContent([prompt, processedHtml]);
       const response = await result.response;
       this.trackTokenUsage(response, 'Game Link Extraction');
       const text = response.text();
@@ -294,11 +350,15 @@ Return the data in the structured JSON format with both boxscoreUrl and pdfUrl f
   ): Promise<ExtractionResult> {
     try {
       console.log(`Extracting officials data for game on ${targetDate}`);
-      
+
+      // Preprocess HTML to reduce tokens
+      const processedHtml = this.preprocessHtml(htmlContent, true);
+      console.log(`📉 Reduced HTML from ${htmlContent.length} to ${processedHtml.length} bytes`);
+
       const prompt = this.buildPrompt(targetDate, schoolDomain);
-      
+
       // Send HTML content to Gemini for extraction
-      const result = await this.model.generateContent([prompt, htmlContent]);
+      const result = await this.model.generateContent([prompt, processedHtml]);
       const response = await result.response;
       this.trackTokenUsage(response, 'Officials Extraction');
       const text = response.text();
@@ -391,11 +451,15 @@ Return the data in the structured JSON format with both boxscoreUrl and pdfUrl f
   ): Promise<ExtractionResult> {
     try {
       console.log(`Extracting officials from boxscore page for game vs ${opponent}`);
-      
+
+      // Preprocess HTML to reduce tokens
+      const processedHtml = this.preprocessHtml(htmlContent, false);
+      console.log(`📉 Reduced HTML from ${htmlContent.length} to ${processedHtml.length} bytes`);
+
       // First check if this page contains officials data directly
-      const hasOfficials = htmlContent.toLowerCase().includes('official') && 
-                          (htmlContent.toLowerCase().includes('referee') || 
-                           htmlContent.toLowerCase().includes('umpire'));
+      const hasOfficials = processedHtml.toLowerCase().includes('official') &&
+                          (processedHtml.toLowerCase().includes('referee') ||
+                           processedHtml.toLowerCase().includes('umpire'));
       
       if (!hasOfficials) {
         // Check for secondary boxscore links
@@ -448,7 +512,7 @@ Return a JSON object with:
                 required: ["foundSecondaryLink"]
               } as any
             }
-          }).generateContent([secondaryBoxscorePrompt, htmlContent]);
+          }).generateContent([secondaryBoxscorePrompt, processedHtml]);
           
           const linkResponse = await secondaryLinkResult.response;
           this.trackTokenUsage(linkResponse, 'Secondary Boxscore Link Detection');
@@ -508,8 +572,8 @@ Important notes:
 
 Return the data in the structured JSON format.
 `;
-      
-      const result = await this.model.generateContent([prompt, htmlContent]);
+
+      const result = await this.model.generateContent([prompt, processedHtml]);
       const response = await result.response;
       this.trackTokenUsage(response, 'Boxscore Officials Extraction');
       const text = response.text();
