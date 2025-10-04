@@ -2,6 +2,7 @@ import { GoogleGenerativeAI, GenerativeModel, SchemaType } from '@google/generat
 import { config } from '../config/environment';
 import { GameOfficials, GameInfo, OFFICIALS_SCHEMA, GameLinkExtractionResult } from '../models/officials';
 import { BaseExtractor, ExtractionResult, PdfLinkExtractionResult } from './base-extractor';
+import * as cheerio from 'cheerio';
 
 export class GeminiExtractor extends BaseExtractor {
   private genAI: GoogleGenerativeAI;
@@ -126,7 +127,6 @@ export class GeminiExtractor extends BaseExtractor {
 
       // Preprocess HTML to reduce tokens
       const processedHtml = this.preprocessHtml(htmlContent, false);
-      console.log(`📉 Reduced HTML from ${htmlContent.length} to ${processedHtml.length} bytes`);
 
       const prompt = `
 You are analyzing a college football boxscore page looking for a PDF boxscore link.
@@ -213,45 +213,76 @@ Return a JSON object with:
    */
   private preprocessHtml(html: string, isSchedulePage: boolean = true): string {
     try {
-      // Remove script tags and their content
-      html = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+      const originalLength = html.length;
+      const $ = cheerio.load(html);
 
-      // Remove style tags and their content
-      html = html.replace(/<style\b[^<]*(?:(?!<\/style>)<[^<]*)*<\/style>/gi, '');
+      // Remove script and style tags
+      $('script, style, noscript').remove();
 
-      // Remove comments
-      html = html.replace(/<!--[\s\S]*?-->/g, '');
+      // Remove navigation, header, footer
+      $('nav, header, footer').remove();
 
-      // Remove common navigation/footer elements
-      html = html.replace(/<nav\b[^>]*>[\s\S]*?<\/nav>/gi, '');
-      html = html.replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi, '');
-      html = html.replace(/<header\b[^>]*>[\s\S]*?<\/header>/gi, '');
+      // Remove common ad containers
+      $('[class*="ad-"], [id*="ad-"], [class*="advertisement"]').remove();
 
-      // Remove excessive whitespace
-      html = html.replace(/\s+/g, ' ');
+      // Remove SVG icons that take up space
+      $('svg').remove();
 
       if (isSchedulePage) {
-        // For schedule pages, try to extract just the schedule table/section
-        const scheduleMatch = html.match(/<table[^>]*schedule[^>]*>[\s\S]*?<\/table>/i) ||
-                             html.match(/<div[^>]*schedule[^>]*>[\s\S]*?<\/div>/i) ||
-                             html.match(/<section[^>]*schedule[^>]*>[\s\S]*?<\/section>/i);
+        // For schedule pages, try to extract only the schedule content
+        let scheduleContent = '';
 
-        if (scheduleMatch) {
-          console.log('📊 Extracted schedule section only');
-          return scheduleMatch[0];
+        // Look for schedule-specific elements
+        const scheduleSelectors = [
+          'table[class*="schedule"]',
+          'div[class*="schedule"]',
+          'section[class*="schedule"]',
+          '.sidearm-schedule',
+          '.schedule-table',
+          '.s-table'
+        ];
+
+        for (const selector of scheduleSelectors) {
+          const elements = $(selector);
+          if (elements.length > 0) {
+            console.log(`📊 Found schedule content with selector: ${selector}`);
+            scheduleContent = elements.first().html() || '';
+            if (scheduleContent.length > 1000) { // Make sure we got meaningful content
+              const processed = `<div class="schedule">${scheduleContent}</div>`;
+              console.log(`📉 Reduced HTML from ${originalLength} to ${processed.length} bytes (${((1 - processed.length/originalLength) * 100).toFixed(1)}% reduction)`);
+              return processed;
+            }
+          }
         }
+
+        console.log('⚠️ No specific schedule element found, using body text extraction');
       }
 
-      // Limit to reasonable size (max 100KB for schedule, 150KB for boxscore)
+      // If we couldn't find a specific schedule section, clean up the full page
+      // but extract text content in a structured way
+      const bodyText = $('body').text();
+      const bodyHtml = $('body').html() || '';
+
+      // Limit to reasonable size
+      const maxLength = isSchedulePage ? 100000 : 150000;
+      let result = bodyHtml;
+
+      if (result.length > maxLength) {
+        console.log(`⚠️ HTML still too large (${result.length} bytes), truncating to ${maxLength} bytes`);
+        result = result.substring(0, maxLength);
+      }
+
+      console.log(`📉 Reduced HTML from ${originalLength} to ${result.length} bytes (${((1 - result.length/originalLength) * 100).toFixed(1)}% reduction)`);
+      return result;
+
+    } catch (error) {
+      console.warn('HTML preprocessing failed, using truncated original:', error);
+      // Fallback: just truncate
       const maxLength = isSchedulePage ? 100000 : 150000;
       if (html.length > maxLength) {
-        console.log(`⚠️ HTML too large (${html.length} bytes), truncating to ${maxLength} bytes`);
-        html = html.substring(0, maxLength);
+        console.log(`⚠️ Fallback truncation to ${maxLength} bytes`);
+        return html.substring(0, maxLength);
       }
-
-      return html;
-    } catch (error) {
-      console.warn('HTML preprocessing failed, using original:', error);
       return html;
     }
   }
@@ -266,7 +297,6 @@ Return a JSON object with:
 
       // Preprocess HTML to reduce tokens
       const processedHtml = this.preprocessHtml(htmlContent, true);
-      console.log(`📉 Reduced HTML from ${htmlContent.length} to ${processedHtml.length} bytes`);
 
       const prompt = `
 You are analyzing a college football schedule page from ${schoolDomain}.
@@ -353,7 +383,6 @@ Return the data in the structured JSON format with both boxscoreUrl and pdfUrl f
 
       // Preprocess HTML to reduce tokens
       const processedHtml = this.preprocessHtml(htmlContent, true);
-      console.log(`📉 Reduced HTML from ${htmlContent.length} to ${processedHtml.length} bytes`);
 
       const prompt = this.buildPrompt(targetDate, schoolDomain);
 
@@ -454,7 +483,6 @@ Return the data in the structured JSON format with both boxscoreUrl and pdfUrl f
 
       // Preprocess HTML to reduce tokens
       const processedHtml = this.preprocessHtml(htmlContent, false);
-      console.log(`📉 Reduced HTML from ${htmlContent.length} to ${processedHtml.length} bytes`);
 
       // First check if this page contains officials data directly
       const hasOfficials = processedHtml.toLowerCase().includes('official') &&
